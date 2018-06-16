@@ -1,8 +1,11 @@
 export const dataJson = [
   {
     id:1,
-    tool:'窯烤',
-    condition:['bread','snack'],
+    tool: {
+      name: '窯烤(羊媽第二個)',
+      iconName: 'tool1'
+    },
+    condition:['bread(麵包)','snack(小吃)'],
     ingredients: [{
       name: '麵粉',
       quantity: 3
@@ -21,8 +24,11 @@ export const dataJson = [
   },
   {
     id: 2,
-    tool: '窯烤',
-    condition: ['bread', 'snack'],
+    tool:{
+      name:'窯烤(羊媽第二個)',
+      iconName:'tool1'
+    },
+    condition: ['bread(麵包)', 'snack(小吃)'],
     ingredients: [{
       name: 'flour',
       quantity: 3
@@ -40,8 +46,11 @@ export const dataJson = [
     }]
   }, {
     id: 3,
-    tool: '窯烤',
-    condition: ['bread', 'snack'],
+    tool:{
+      name:'窯烤(羊媽第二個)',
+      iconName:'tool1'
+    },
+    condition: ['bread(麵包)', 'snack(小吃)'],
     ingredients: [{
       name: 'flour',
       quantity: 3
@@ -59,8 +68,11 @@ export const dataJson = [
     }]
   }, {
     id: 4,
-    tool: '窯烤',
-    condition: ['bread', 'snack'],
+    tool:{
+      name:'窯烤(羊媽第二個)',
+      iconName:'tool1'
+    },
+    condition: ['bread(麵包)', 'snack(小吃)'],
     ingredients: [{
       name: 'flour',
       quantity: 3
@@ -78,8 +90,11 @@ export const dataJson = [
     }]
   }, {
     id: 5,
-    tool: '窯烤',
-    condition: ['bread', 'snack'],
+    tool:{
+      name:'窯烤(羊媽第二個)',
+      iconName:'tool1'
+    },
+    condition: ['bread(麵包)', 'snack(小吃)'],
     ingredients: [{
       name: 'flour',
       quantity: 3
@@ -97,8 +112,11 @@ export const dataJson = [
     }]
   }, {
     id: 6,
-    tool: '窯烤',
-    condition: ['bread', 'snack'],
+    tool:{
+      name:'窯烤(羊媽第二個)',
+      iconName:'tool1'
+    },
+    condition: ['bread(麵包)', 'snack(小吃)'],
     ingredients: [{
       name: 'flour',
       quantity: 3
@@ -116,8 +134,11 @@ export const dataJson = [
     }]
   }, {
     id: 7,
-    tool: '窯烤',
-    condition: ['bread', 'snack'],
+    tool:{
+      name:'窯烤(羊媽第二個)',
+      iconName:'tool1'
+    },
+    condition: ['bread(麵包)', 'snack(小吃)'],
     ingredients: [{
       name: 'flour',
       quantity: 3
@@ -135,8 +156,11 @@ export const dataJson = [
     }]
   }, {
     id: 8,
-    tool: '窯烤',
-    condition: ['bread', 'snack'],
+    tool:{
+      name:'窯烤(羊媽第二個)',
+      iconName:'tool1'
+    },
+    condition: ['bread(麵包)', 'snack(小吃)'],
     ingredients: [{
       name: 'flour',
       quantity: 3
