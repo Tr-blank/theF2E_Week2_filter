@@ -3,14 +3,27 @@
     <ul>
       <li class="listItem" v-for="item in data" :key="item.id">
         <div class="itemInfo">
+          <div class="title">{{item.title}}<img class='titleHr' src="img/quagmire_recipe_line_break.png" alt=""></div>
           <span :class="'itemImg item-'+item.id"></span> 
-          <div><i :class="'toolIcon-'+item.tool.iconName"></i>{{item.tool.name}}</div>
-          <div v-for="(type,index) in item.condition" :key="index">{{type}}</div>
+          <div><img class="icon" :src="'img/stuffIcons/'+item.tool.iconName+'.png'" alt=""><span>{{item.tool.name}}</span></div>
+          <div class="typeList"><span class="typeItem" v-for="(type,index) in item.condition" :key="index">{{type}}</span></div>
         </div>
         <div class="itemDetail">
-          <div>一般供奉換取：<span v-for="(money,index) in item.exchange" :key="index">{{money.quantity}}{{money.kind}}</span></div>
-          <div>銀具供奉換取：<span v-for="(money,index) in item.more_exchange" :key="index">{{money.quantity}}{{money.kind}}</span></div>
-          <div><span v-for="(stuff,index) in item.ingredients" :key="index">{{stuff.name}}X{{stuff.quantity}}</span></div>
+          <div>
+            <span class="titleSmall">一般供奉</span>
+            <span class="coin" v-for="(money,index) in item.exchange" :key="index"><img class="icon" :src="'img/stuffIcons/quagmire_coin'+money.kind+'.png'" alt="">{{money.quantity}}
+            </span>
+          </div>
+          <div>
+            <span class="titleSmall">銀具供奉</span>
+            <span class="coin" v-for="(money,index) in item.more_exchange" :key="index"><img class="icon" :src="'img/stuffIcons/quagmire_coin'+money.kind+'.png'" alt="">{{money.quantity}}
+            </span>
+          </div>
+          <p>{{ item.ingredients}}</p>
+          <img src="img/quagmire_recipe_line.png" alt="">
+          <div class="stuffList" v-for="(stuff,index) in item.stuffIcons" :key="index">{{index+1}}.
+            <span v-for="(icon,index) in stuff.constitute" :key="index"><img :src="'img/stuffIcons/'+icon+'.png'" alt=""></span>
+          </div>
         </div>
       </li>
     </ul>

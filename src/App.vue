@@ -20,13 +20,6 @@
             <li>Pasta (義大利麵)</li>
             <li>Cheese (起司)</li>
           </ul>
-          <p>特殊金幣</p>
-          <ul class="coinlist">
-            <li>彩虹幣</li>
-            <li>金幣</li>
-            <li>銀幣</li>
-            <li>銅幣</li>
-          </ul>
           <p>烹飪工具</p>
           <ul class="toollist">
             <li>吊鍋</li>
@@ -35,6 +28,13 @@
             <li>大吊鍋</li>
             <li>大窯烤</li>
             <li>大烤盤</li>
+          </ul>
+          <p>金幣數量排序</p>
+          <ul class="coinlist">
+            <li>彩虹幣</li>
+            <li>金幣</li>
+            <li>銀幣</li>
+            <li>銅幣</li>
           </ul>
         </div>
       </aside>
@@ -69,6 +69,17 @@
     padding  30px 0
   aside
     width 40%
+  article
+    width 60%
+    padding-left 3%
+    padding-top 25px
+  @media screen and (max-width: 980px)
+    main 
+      display block
+    aside,
+    article
+      width  100%
+      padding: 10px;
   .filter
     border-style: solid;
     border-width: 60px 30px 60px 30px;
@@ -99,9 +110,9 @@
       padding: 5px 10px;
       background-color: #18120d;
       margin: 5px 1%;
+      font-size 0.85rem
       border: 1px solid #37363c;
       border-radius: 3px;
-      font-size: 0.875rem;
       text-align  center
       cursor: pointer;
       transition  background-color .25s ease
@@ -110,6 +121,7 @@
   .typelist
     li
       width 48%
+      font-size 1rem
   .coinlist
     li
       width 23%
