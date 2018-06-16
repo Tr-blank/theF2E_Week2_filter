@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "bbc7283197043e396fc136f12407051d",
-    "url": "/img/stuffIcons/foliage.PNG"
-  },
-  {
-    "revision": "3f657ea111d27961f9b0",
-    "url": "/js/chunk-vendors.3f657ea1.js"
-  },
-  {
     "revision": "96e32e81fcef4a3926bf31224edfd6de",
     "url": "/img/item_bg.png"
   },
   {
-    "revision": "1046ed65b3b2f8afb1fe",
-    "url": "/js/app.1046ed65.js"
+    "revision": "be0002db8a9579fdff25",
+    "url": "/js/chunk-vendors.be0002db.js"
+  },
+  {
+    "revision": "bbc7283197043e396fc136f12407051d",
+    "url": "/img/stuffIcons/foliage.PNG"
+  },
+  {
+    "revision": "b9a9981b8cfa12692524",
+    "url": "/js/app.b9a9981b.js"
   },
   {
     "revision": "79670b93504b50fef120209af139ef53",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/img/logo.png"
   },
   {
-    "revision": "9485e5f61b18910b60ac7ee2e4ce1378",
-    "url": "/img/quagmire_recipe_line_break.png"
-  },
-  {
     "revision": "e9d84afe8f279ae5a5252d2bee1d41d2",
     "url": "/img/panel-centre.png"
+  },
+  {
+    "revision": "9485e5f61b18910b60ac7ee2e4ce1378",
+    "url": "/img/quagmire_recipe_line_break.png"
   },
   {
     "revision": "1523e6345deede1cf2537a8628fd363b",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/img/quagmire_recipe_menu_block.png"
   },
   {
-    "revision": "bed3f724ac3708efd2b290b6eb67a033",
-    "url": "/img/stuffIcons/carrot.PNG"
-  },
-  {
     "revision": "4441166dbc14101974df22ea007b0d0e",
     "url": "/img/stuffIcons/berries.PNG"
+  },
+  {
+    "revision": "bed3f724ac3708efd2b290b6eb67a033",
+    "url": "/img/stuffIcons/carrot.PNG"
   },
   {
     "revision": "91cc917d01bc906528aebcbf45e7c20f",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/img/stuffIcons/syrup.PNG"
   },
   {
-    "revision": "ed2225ad7681ba6f47680116189281b1",
+    "revision": "86619c7fddcc43a2df9904646bcf7db6",
     "url": "/index.html"
   },
   {
@@ -96,20 +96,24 @@ self.__precacheManifest = [
     "url": "/img/stuffIcons/potato.PNG"
   },
   {
+    "revision": "9711b831d38c38ff74aad619ee15f02f",
+    "url": "/img/stuffIcons/quagmire_coin2.PNG"
+  },
+  {
     "revision": "065543f85beab1f157b835b7f2f9c75e",
     "url": "/img/stuffIcons/quagmire_coin1.PNG"
   },
   {
-    "revision": "a43063b14081b13e98f124d2ade3e585",
-    "url": "/img/stuffIcons/salmon.PNG"
+    "revision": "3aab78527eca4c07a53c579b4b1f270d",
+    "url": "/img/stuffIcons/quagmire_coin4.PNG"
   },
   {
     "revision": "0e6896bf326191b85ed2744adb4cbdcc",
     "url": "/img/stuffIcons/quagmire_coin3.PNG"
   },
   {
-    "revision": "3aab78527eca4c07a53c579b4b1f270d",
-    "url": "/img/stuffIcons/quagmire_coin4.PNG"
+    "revision": "a43063b14081b13e98f124d2ade3e585",
+    "url": "/img/stuffIcons/salmon.PNG"
   },
   {
     "revision": "a4344ac06423bfd764cc18d1121c805f",
@@ -118,10 +122,6 @@ self.__precacheManifest = [
   {
     "revision": "0b927551eff5b5fd69ea292fe22ddce6",
     "url": "/img/stuffIcons/spotspice_ground.PNG"
-  },
-  {
-    "revision": "9711b831d38c38ff74aad619ee15f02f",
-    "url": "/img/stuffIcons/quagmire_coin2.PNG"
   },
   {
     "revision": "44dca96dfe24ad44f297b0083130aede",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/dataJson.js"
   },
   {
-    "revision": "1046ed65b3b2f8afb1fe",
-    "url": "/css/app.b1f3c17c.css"
+    "revision": "b9a9981b8cfa12692524",
+    "url": "/css/app.9e7c9468.css"
   }
 ];

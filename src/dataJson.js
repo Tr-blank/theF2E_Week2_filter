@@ -13,17 +13,8 @@ export const dataJson = [
       }, {
         constitute: ['flour', 'flour', 'flour', 'flour']
     }],
-    exchange:[{
-      kind:1,
-      quantity:6
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    },{
-      kind: 1,
-      quantity: 2
-    }]
+    exchange: [6, 0, 0, 0],
+    more_exchange: [2, 1, 0, 0]
   },
   {
     id: 2,
@@ -41,17 +32,8 @@ export const dataJson = [
     }, {
       constitute: ['potato', 'potato', 'potato', 'spotspice_ground']
     }],
-    exchange: [{
-      kind: 1,
-      quantity: 6
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 2
-    }]
+    exchange: [6, 0, 0, 0],
+    more_exchange: [2, 1, 0, 0]
   },
   {
     id: 3,
@@ -73,17 +55,8 @@ export const dataJson = [
     }, {
         constitute: ['potato', 'potato', 'turnip']
     }],
-    exchange: [{
-      kind: 1,
-      quantity: 8
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 1
-    }]
+    exchange: [5, 0, 0, 0],
+    more_exchange: [4, 1, 0, 0]
   },
   {
     id: 4,
@@ -105,17 +78,8 @@ export const dataJson = [
     }, {
         constitute: ['berries', 'berries', 'berries','flour']
     }],
-    exchange: [{
-      kind: 1,
-      quantity: 8
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 4
-    }]
+    exchange: [8, 0, 0, 0],
+    more_exchange: [4, 1, 0, 0]
   },
   {
     id: 5,
@@ -124,7 +88,7 @@ export const dataJson = [
       name: 'Cookpot (吊鍋)',
       iconName: 'pot_small'
     },
-    condition: ['Soup(湯)', 'Fish (魚類)'],
+    condition: ['Soup (湯)', 'Fish (魚類)'],
     ingredients: '魚類+蔬菜',
     stuffIcons: [{
         constitute: ['salmon', 'potato', 'potato']
@@ -137,17 +101,8 @@ export const dataJson = [
       }, {
         constitute: ['salmon', 'salmon', 'salmon']
     }],
-    exchange: [{
-      kind: 1,
-      quantity: 8
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 4
-    }]
+    exchange: [8, 0, 0, 0],
+    more_exchange: [4, 1, 0, 0]
   },
   {
     id: 6,
@@ -156,7 +111,7 @@ export const dataJson = [
       name: 'Oven (窯烤)',
       iconName: 'casseroledish_small'
     },
-    condition: ['Soup(湯)', 'Veggie (蔬菜)'],
+    condition: ['Snack (小吃)', 'Veggie (蔬菜)'],
     ingredients: '甜菜*2+甜菜或蔬菜',
     stuffIcons: [{
         constitute: ['turnip', 'turnip', 'carrot']
@@ -169,17 +124,8 @@ export const dataJson = [
     }, {
         constitute: ['turnip', 'turnip', 'turnip','turnip']
     }],
-    exchange: [{
-      kind: 1,
-      quantity: 8
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 4
-    }]
+    exchange: [8, 0, 0, 0],
+    more_exchange: [4, 1, 0, 0]
   },
   {
     id: 7,
@@ -188,7 +134,7 @@ export const dataJson = [
       name: 'Grill (烤盤)',
       iconName: 'grill_small'
     },
-    condition: ['Soup(湯)', 'Veggie (蔬菜)'],
+    condition: ['Snack (小吃)', 'Veggie (蔬菜)'],
     ingredients: '馬鈴薯*2+馬鈴薯或洋蔥',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'potato']
@@ -197,17 +143,8 @@ export const dataJson = [
     }, {
         constitute: ['potato', 'potato', 'potato', 'ingredient_slot']
     }],
-    exchange: [{
-      kind: 1,
-      quantity: 8
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 4
-    }]
+    exchange: [8,0,0,0],
+    more_exchange: [4,1,0,0]
   },
   {
     id: 8,
@@ -216,7 +153,7 @@ export const dataJson = [
       name: 'Cookpot (吊鍋)',
       iconName: 'pot_small'
     },
-    condition: ['Soup(湯)', 'Veggie (蔬菜)', 'Snack (小吃)'],
+    condition: ['Soup (湯)', 'Veggie (蔬菜)', 'Snack (小吃)'],
     ingredients: '馬鈴薯*2+馬鈴薯或香料粉',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'potato']
@@ -227,17 +164,8 @@ export const dataJson = [
       }, {
         constitute: ['potato', 'potato', 'potato', 'spotspice_ground']
     }],
-    exchange: [{
-      kind: 1,
-      quantity: 10
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 7
-    }]
+    exchange: [10, 0, 0, 0],
+    more_exchange: [7, 1, 0, 0]
   },
   {
     id: 9,
@@ -259,17 +187,8 @@ export const dataJson = [
       }, {
         constitute: ['twigs', 'salmon', 'salmon']
       }],
-    exchange: [{
-      kind: 1,
-      quantity: 10
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 7
-    }]
+    exchange: [10,0,0,0],
+    more_exchange: [7,1,0,0]
   },
   {
     id: 10,
@@ -291,16 +210,7 @@ export const dataJson = [
     }, {
         constitute: ['smallmeat', 'smallmeat', 'smallmeat']
     }],
-    exchange: [{
-      kind: 1,
-      quantity: 10
-    }],
-    more_exchange: [{
-      kind: 2,
-      quantity: 1
-    }, {
-      kind: 1,
-      quantity: 7
-    }]
+    exchange: [10, 0, 0, 0],
+    more_exchange: [7, 1, 0, 0]
   }
 ]
