@@ -1,26 +1,36 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <body id="app">
+    <div class="header-top">6/14~7/9 新遊戲活動「The Gorge」</div>
+    <header>
+      <img class="logoImg" src="img/logo.png" alt="">
+    </header>
+    <main class="inner">
+      <router-view/>
+    </main>
+  </body>
 </template>
 
 <style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-
-#nav
-  padding 30px
-  a
-    font-weight bold
-    color #2c3e50
-    &.router-link-exact-active
-      color #42b983
+  @import 'stylus/normalize'
+  @import '../stylus/basic'
+  body
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+  .header-top
+    background-color #161421
+    text-align  center
+    line-height 40px
+    color #fff
+  header
+    text-align  center
+    background-color: rgba(0,0,0,.6);
+    box-shadow: 0 20px 30px 0px rgba(0,0,0,.6);
+    padding: 40px 0 0 0;
+  .logoImg
+    width 260px
+  main 
+    x-inner()
+    padding  50px 0
 </style>
