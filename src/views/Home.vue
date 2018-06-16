@@ -128,5 +128,6 @@ export default class Home extends Vue {
 }
 </script>
 <style lang="stylus">
+@import '../stylus/basic'
 @import '../stylus/home'
 </style>
