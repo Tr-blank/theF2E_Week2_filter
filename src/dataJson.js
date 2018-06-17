@@ -446,9 +446,9 @@ export const dataJson = [
     id: 20,
     title: 'Slider',
     tool: [{
-      type: 'Grill',
-      name: 'Grill烤盤',
-      iconName: 'grill_small'
+      type: 'Cookpot',
+      name: 'Cookpot吊鍋',
+      iconName: 'pot_small'
     }],
     condition: ['Bread 麵包','Snack 小吃','Meat 肉類'],
     ingredients: '麵粉+肉類、任意',
@@ -465,5 +465,294 @@ export const dataJson = [
     }],
     exchange: [12, 0, 0, 0],
     more_exchange: [2, 3, 0, 0]
+  },
+  {
+    id: 21,
+    title: 'Jam',
+    tool: [{
+      type: 'Cookpot',
+      name: 'Cookpot吊鍋',
+      iconName: 'pot_small'
+    }],
+    condition: ['Dessert 甜點', 'Snack 小吃'],
+    ingredients: '漿果*2、楓糖',
+    stuffIcons: [{
+      constitute: ['berries', 'berries', 'berries']
+    }, {
+        constitute: ['berries', 'berries', 'syrup']
+    }, {
+        constitute: ['berries', 'berries', 'berries', 'berries']
+    }, {
+        constitute: ['berries', 'berries', 'berries','syrup']
+    }, {
+        constitute: ['berries', 'berries', 'syrup','syrup']
+    }],
+    exchange: [1, 0, 0, 0],
+    more_exchange: [1, 2, 0, 0]
+  },
+  {
+    id: 22,
+    title: 'Jelly Roll',
+    tool: [{
+      type: 'Cookpot',
+      name: 'Cookpot吊鍋',
+      iconName: 'pot_small'
+    }],
+    condition: ['Dessert 甜點'],
+    ingredients: '漿果*2、麵粉',
+    stuffIcons: [{
+      constitute: ['berries', 'berries', 'flour']
+    }, {
+        constitute: ['berries', 'berries', 'flour', 'flour']
+    }, {
+        constitute: ['berries', 'berries', 'berries', 'flour']
+    }],
+    exchange: [2, 1, 0, 0],
+    more_exchange: [4, 1, 0, 0]
+  },
+  {
+    id: 23,
+    title: 'Carrot Cake',
+    tool: [{
+      type: 'Oven',
+      name: 'Oven窯烤',
+      iconName: 'casseroledish_small'
+    }],
+    condition: ['Dessert 甜點'],
+    ingredients: '麵粉*2+蘿蔔、羊奶、楓糖、蘿蔔',
+    stuffIcons: [{
+      constitute: ['flour', 'flour', 'carrot']
+    }, {
+        constitute: ['flour', 'flour', 'carrot', 'carrot']
+    }, {
+        constitute: ['flour', 'flour', 'carrot', 'syrup']
+      }, {
+        constitute: ['flour', 'flour', 'carrot', 'goatmilk']
+      }],
+    exchange: [2, 1, 0, 0],
+    more_exchange: [4, 1, 0, 0]
+  },
+  {
+    id: 24,
+    title: 'Mashed Potatoes',
+    tool: [{
+      type: 'Cookpot',
+      name: 'Cookpot吊鍋',
+      iconName: 'pot_small'
+    }],
+    condition: ['Snack 小吃', 'Veggie 蔬菜'],
+    ingredients: '馬鈴薯*2+蒜頭、馬鈴薯',
+    stuffIcons: [{
+      constitute: ['potato', 'potato', 'garlic']
+    }, {
+        constitute: ['potato', 'potato', 'potato', 'garlic']
+    }],
+    exchange: [6, 1, 0, 0],
+    more_exchange: [3, 0, 1, 0]
+  },
+  {
+    id: 25,
+    title: 'Garlic Bread',
+    tool: [{
+      type: 'Oven',
+      name: 'Oven窯烤',
+      iconName: 'casseroledish_small'
+    }],
+    condition: ['Snack 小吃', 'Bread 麵包'],
+    ingredients: '麵粉*2+蒜頭、麵粉',
+    stuffIcons: [{
+      constitute: ['flour', 'flour', 'garlic']
+    }, {
+        constitute: ['flour', 'flour', 'flour', 'garlic']
+      }, {
+        constitute: ['flour', 'flour', 'garlic', 'garlic']
+      }],
+    exchange: [6, 1, 0, 0],
+    more_exchange: [3, 0, 1, 0]
+  },
+  {
+    id: 26,
+    title: 'Tomato Soup',
+    tool: [{
+      type: 'Cookpot',
+      name: 'Cookpot吊鍋',
+      iconName: 'pot_small'
+    }],
+    condition: ['Snack 小吃', 'Veggie 蔬菜', 'Soup 湯'],
+    ingredients: '番茄*2、番茄、蒜頭、香料',
+    stuffIcons: [{
+      constitute: ['tomato', 'tomato', 'tomato']
+    }, {
+        constitute: ['tomato', 'tomato', 'garlic']
+    }, {
+        constitute: ['tomato', 'tomato', 'spotspice_ground']
+      }, {
+        constitute: ['tomato', 'tomato', 'tomato', 'spotspice_ground']
+      }, {
+        constitute: ['tomato', 'tomato', 'tomato', 'tomato']
+      }],
+    exchange: [8, 1, 0, 0],
+    more_exchange: [6, 0, 1, 0]
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ,
+
+
+  {
+    id: 60,
+    title: 'Steak Frites',
+    tool: [{
+      type: 'Grill',
+      name: 'Grill烤盤',
+      iconName: 'grill'
+    }],
+    condition: ['Meat 肉類', 'Bread 麵包'],
+    ingredients: '肉+麵粉+香菇+香料',
+    stuffIcons: [{
+      constitute: ['meat', 'meat', 'potato', 'potato']
+    }, {
+      constitute: ['meat', 'meat', 'potato', 'spotspice_ground']
+    }, {
+      constitute: ['meat', 'potato', 'potato', 'spotspice_ground']
+    }],
+    exchange: [6, 0, 2, 0],
+    more_exchange: [2, 1, 1, 1]
+  },
+  {
+    id: 61,
+    title: 'Shooter Sandwich',
+    tool: [{
+      type: 'Grill',
+      name: 'Grill烤盤',
+      iconName: 'grill'
+    }],
+    condition: ['Meat 肉類'],
+    ingredients: '牛肉x2、馬鈴薯x2',
+    stuffIcons: [{
+      constitute: ['meat', 'meat', 'flour', 'spotspice_ground']
+    }, {
+      constitute: ['meat', 'meat', 'flour', 'spotspice_ground']
+    }, {
+      constitute: ['meat', 'flour', 'potato', 'spotspice_ground']
+    }, {
+      constitute: ['meat', 'flour', 'potato', 'spotspice_ground']
+    }, {
+      constitute: ['meat', 'meat', 'flour', 'spotspice_ground']
+    }],
+    exchange: [6, 0, 2, 0],
+    more_exchange: [2, 1, 1, 1]
+  },
+  {
+    id: 62,
+    title: 'Offering',
+    tool: [{
+      type: 'Oven',
+      name: 'Oven窯烤',
+      iconName: 'casseroledish'
+    }],
+    condition: ['Meat 肉類'],
+    ingredients: '牛肉x2、肉x2',
+    stuffIcons: [{
+      constitute: ['meat', 'meat', 'smallmeat', 'smallmeat']
+    }, {
+      constitute: ['meat', 'meat', 'smallmeat', 'spotspice_ground']
+    }, {
+      constitute: ['meat', 'smallmeat', 'smallmeat', 'spotspice_ground']
+    }],
+    exchange: [8, 0, 2, 0],
+    more_exchange: [4, 1, 1, 1]
+  },
+  {
+    id: 63,
+    title: 'Crab Roll',
+    tool: [{
+      type: 'Grill',
+      name: 'Grill烤盤',
+      iconName: 'grill'
+    }],
+    condition: ['Bread 麵包'],
+    ingredients: '蟹肉x2+麵粉+蕨類',
+    stuffIcons: [{
+      constitute: ['crabmeat', 'crabmeat', 'flour', 'foliage']
+    }, {
+      constitute: ['crabmeat', 'flour', 'foliage', 'tomato']
+    }, {
+      constitute: ['crabmeat', 'flour', 'foliage', 'onion']
+    }, {
+      constitute: ['crabmeat', 'crabmeat', 'flour', 'tomato']
+    }, {
+      constitute: ['crabmeat', 'crabmeat', 'flour', 'mushrooms']
+    }],
+    exchange: [4, 1, 2, 0],
+    more_exchange: [7, 1, 1, 1]
+  },
+  {
+    id: 64,
+    title: 'Meat Wellington',
+    tool: [{
+      type: 'Oven',
+      name: 'Oven窯烤',
+      iconName: 'casseroledish'
+    }],
+    condition: ['Meat 肉類'],
+    ingredients: '牛肉+麵粉+菇類+香料',
+    stuffIcons: [{
+      constitute: ['meat', 'meat', 'flour', 'spotspice_ground']
+    }, {
+      constitute: ['meat', 'flour', 'mushrooms', 'spotspice_ground']
+    }, {
+      constitute: ['meat', 'meat', 'flour', 'garlic']
+    }, {
+      constitute: ['meat', 'meat', 'flour', 'mushrooms']
+    }, {
+      constitute: ['meat', 'flour', 'garlic', 'spotspice_ground']
+    }],
+    exchange: [4, 1, 2, 0],
+    more_exchange: [7, 1, 1, 1]
+  },
+  {
+    id: 65,
+    title: 'Crab Ravioli',
+    tool: [{
+      type: 'Cookpot',
+      name: 'Cookpot吊鍋',
+      iconName: 'pot'
+    }],
+    condition: ['Cheese 起司', 'Pasta 義大利麵'],
+    ingredients: '蟹肉+麵粉+牛奶+香料',
+    stuffIcons: [{
+      constitute: ['crabmeat', 'flour', 'goatmilk', 'mushrooms']
+    }, {
+      constitute: ['crabmeat', 'flour', 'garlic', 'goatmilk']
+    }, {
+      constitute: ['crabmeat', 'flour', 'goatmilk', 'spotspice_ground']
+    }, {
+      constitute: ['crabmeat', 'flour', 'goatmilk', 'onion']
+    }, {
+      constitute: ['crabmeat', 'crabmeat', 'flour', 'goatmilk']
+    }],
+    exchange: [6, 1, 2, 0],
+    more_exchange: [3, 0, 2, 1]
+  },
 ]

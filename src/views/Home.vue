@@ -125,6 +125,8 @@ export default class Home extends Vue {
       //     this.dataFilted = this.data;
       // }
       this.dataFilted = this.data;
+      this.pc_asideTop=0;
+      window.scrollY = 0;
       let toolFilterData =[];
       let typeFilterData =[];
       let toolFilter = this.toolArray;
@@ -151,7 +153,7 @@ export default class Home extends Vue {
       
       let final_id;
       toolFilter.length != 0?final_id = toolFilterData.filter(v => typeFilterData.includes(v)):final_id=typeFilterData;
-      console.log(final_id);
+      // console.log(final_id);
 
       let textArray = this.textString.split(" ");
       // console.log(textArray);
