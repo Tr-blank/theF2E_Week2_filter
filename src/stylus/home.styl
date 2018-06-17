@@ -1,20 +1,83 @@
+  .hide
+    display none
   main 
     x-inner()
     display flex
     padding  30px 0
   aside
-    width 40%
+    width 30%
   article
-    width 60%
-    padding-left 3%
+    width 70%
+    padding-left 2%
     padding-top 25px
-  @media screen and (max-width: 980px)
+  .listWrapper
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+  section
+    width 49%
+  @media screen and (max-width: 1400px)
+    main 
+      max-width: 960px;
+    aside
+      width 40%
+    article
+      width 60%
+    section
+      width  100%
+  .asideButton
+    display none
+  @media screen and (max-width: 960px)
     main 
       display block
-    aside,
+    aside
+      position: fixed;
+      z-index: 100;
+      top: 100%;
+      right: 0;
+      width  100%
+      padding: 10px;
+      transition: top .35s ease
+      height: 98%;
     article
       width  100%
       padding: 10px;
+    .asideButton
+      z-index: 500;
+      position: fixed;
+      bottom: 0px;
+      right: 2%;
+      background-image: url(/img/panel-top.png);
+      width: 96%;
+      height: 67px;
+      background-repeat: no-repeat;
+      background-size: 412px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #000;
+      cursor: pointer;
+      background-position: top center;
+      &::after
+        content '篩選'
+        margin-left -13px
+    #asideControl:checked
+      + .asideButton::after
+        content '確定'
+      ~ aside
+        top 0
+
+
+
+  #toolFilter
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #18120d;
+    color: #efcfaa;
+    height: 40px;
   .filter
     border-style: solid;
     border-width: 60px 30px 60px 30px;
@@ -23,14 +86,35 @@
     -o-border-image: url(/img/panel-centre.png) 60 30 60 30 stretch;
     border-image: url(/img/panel-centre.png) 60 30 60 30 fill stretch;
     color #efcfaa
-    padding  20px
+    padding  10px
     line-height 1.75rem
-    input
-      border-bottom: 2px solid #e0be9f;
-      background-color: transparent;
-      border-radius: 3px;
-      color: #fff
-      width: 100%;
+    max-height 100%
+    overflow auto
+    .textFilter
+      position relative
+      input
+        background-color: transparent;
+        border-radius: 3px;
+        color: #18120d;
+        width: 100%;
+        background-image: url(/img/button-area.png);
+        background-position: 0px 100%;
+        background-size: 100% 200%;
+        background-repeat: no-repeat;
+        padding: 10px;
+        font-weight: bold;
+      .fas
+        position: absolute;
+        top: 0;
+        right: 4px;
+        height: 50px;
+        width: 40px;
+        line-height: 3rem;
+        font-size: 1.3rem;
+        color: #1e1811;
+        text-align: center;
+        cursor: pointer;
+        z-index: 10;
     p
       text-align: center;
       font-size: 1.25rem;
@@ -38,16 +122,17 @@
       margin: 0; 
       margin-top: 20px;
       color #fff
-    ul
+    ul,.typelist
       display flex
       flex-wrap wrap
-    li
-      padding: 5px 10px;
+    li,label
+      padding: 5px 5px;
       background-color: #18120d;
       margin: 5px 1%;
       font-size 0.85rem
       border: 1px solid #37363c;
       border-radius: 3px;
+      display block
       text-align  center
       cursor: pointer;
       transition  background-color .25s ease
@@ -58,16 +143,32 @@
         color: #1e1811;
         font-weight: bold;
         font-size: 1rem;
+      .fas
+        font-size: 0.725rem
+        padding-left 2px
+        display none
+    .filterInput:checked
+      + label
+        background-color: #efd2ae;
+        color: #1e1811;
+        font-weight: bold;
+        font-size: 1rem;
+        .fas
+          display inline-block
+  .total
+    text-align: center;
+    margin-bottom: 20px;
+  .totalNumber
+    font-size: 1.75rem
+    padding  0 10px
   .typelist
-    li
+    li,label
       width 48%
       font-size 1rem
   .coinlist
-    li
-      width 23%
-  .toollist
-    li
-      width  31%
+    li,label
+      width 48%
+
 .listItem
   border-style: solid;
   border-width: 30px 40px 30px 40px;
@@ -149,4 +250,9 @@ for x in 0 ... 70
   padding-left 5px
 .icon
   vertical-align: bottom;
-  margin-right: 5px;
+@media screen and (max-width: 480px)
+  .listItem
+    display block
+  .itemInfo,
+  .itemDetail
+    width 100%

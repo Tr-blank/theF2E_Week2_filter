@@ -1,8 +1,10 @@
+
 export const dataJson = [
   {
     id:1,
     title:'Bread',
     tool: {
+      type:'Oven',
       name: 'Oven (窯烤)',
       iconName: 'casseroledish_small'
     },
@@ -20,6 +22,7 @@ export const dataJson = [
     id: 2,
     title: 'Chips',
     tool: {
+      type: 'Oven',
       name: 'Oven (窯烤)',
       iconName: 'casseroledish_small'
     },
@@ -39,6 +42,7 @@ export const dataJson = [
     id: 3,
     title: 'Veggie Soup',
     tool: {
+      type: 'Cookpot',
       name: 'Cookpot (吊鍋)',
       iconName: 'pot_small'
     },
@@ -62,6 +66,7 @@ export const dataJson = [
     id: 4,
     title: 'Jelly Sandwich',
     tool: {
+      type: 'Grill',
       name: 'Grill (烤盤)',
       iconName: 'grill_small'
     },
@@ -85,6 +90,7 @@ export const dataJson = [
     id: 5,
     title: 'Fish Stew',
     tool: {
+      type: 'Cookpot',
       name: 'Cookpot (吊鍋)',
       iconName: 'pot_small'
     },
@@ -108,6 +114,7 @@ export const dataJson = [
     id: 6,
     title: 'Turnip Cake',
     tool: {
+      type: 'Oven',
       name: 'Oven (窯烤)',
       iconName: 'casseroledish_small'
     },
@@ -131,6 +138,7 @@ export const dataJson = [
     id: 7,
     title: 'Potato Pancakes',
     tool: {
+      type: 'Grill',
       name: 'Grill (烤盤)',
       iconName: 'grill_small'
     },
@@ -150,6 +158,7 @@ export const dataJson = [
     id: 8,
     title: 'Potato Pancakes',
     tool: {
+      type: 'Cookpot',
       name: 'Cookpot (吊鍋)',
       iconName: 'pot_small'
     },
@@ -171,6 +180,7 @@ export const dataJson = [
     id: 9,
     title: 'Fishball Skewers',
     tool: {
+      type: 'Grill',
       name: 'Grill (烤盤)',
       iconName: 'grill_small'
     },
@@ -194,6 +204,7 @@ export const dataJson = [
     id: 10,
     title: 'Meatballs',
     tool: {
+      type: 'Cookpot',
       name: 'Cookpot (吊鍋)',
       iconName: 'pot_small'
     },
