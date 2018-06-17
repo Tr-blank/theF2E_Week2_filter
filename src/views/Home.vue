@@ -125,8 +125,6 @@ export default class Home extends Vue {
       //     this.dataFilted = this.data;
       // }
       this.dataFilted = this.data;
-      this.pc_asideTop=0;
-      window.scrollY = 0;
       let toolFilterData =[];
       let typeFilterData =[];
       let toolFilter = this.toolArray;
