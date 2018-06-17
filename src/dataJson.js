@@ -593,6 +593,30 @@ export const dataJson = [
       }],
     exchange: [8, 1, 0, 0],
     more_exchange: [6, 0, 1, 0]
+  },
+  {
+    id: 27,
+    title: 'Sausage',
+    tool: [{
+      type: 'Grill',
+      name: 'Grill烤盤',
+      iconName: 'grill_small'
+    }],
+    condition: ['Snack 小吃', 'Meat 肉類'],
+    ingredients: '肉類+香料、蔬菜',
+    stuffIcons: [{
+      constitute: ['smallmeat', 'foliage', 'smallmeat']
+    }, {
+        constitute: ['smallmeat', 'potato', 'spotspice_ground']
+    }, {
+        constitute: ['smallmeat', 'carrot', 'spotspice_ground']
+    }, {
+        constitute: ['smallmeat', 'tomato', 'spotspice_ground']
+    }, {
+        constitute: ['smallmeat', 'smallmeat', 'spotspice_ground']
+    }],
+    exchange: [8, 1, 0, 0],
+    more_exchange: [6, 0, 1, 0]
   }
 
 

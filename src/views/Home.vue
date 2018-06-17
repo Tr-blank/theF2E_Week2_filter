@@ -125,6 +125,7 @@ export default class Home extends Vue {
       //     this.dataFilted = this.data;
       // }
       this.dataFilted = this.data;
+      this.pc_asideTop = 0;
       let toolFilterData =[];
       let typeFilterData =[];
       let toolFilter = this.toolArray;
@@ -210,8 +211,8 @@ export default class Home extends Vue {
           h = w.innerWidth|| e.clientWidth|| g.clientWidth,
           y = w.innerHeight|| e.clientHeight|| g.clientHeight;
     if(h>960){      
-      if(window.scrollY + window.innerHeight > document.body.scrollHeight-50){
-        this.pc_asideTop = window.scrollY - window.innerHeight + 600;
+      if(window.scrollY + window.innerHeight > document.body.scrollHeight-20 && window.innerHeight + 530 < document.body.scrollHeight){
+        this.pc_asideTop = document.body.scrollHeight - window.innerHeight - 340;
       }else if(window.scrollY<320){
         this.pc_asideTop = 0;
       }else{
