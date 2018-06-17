@@ -8,34 +8,34 @@
         <div class="textFilter"><input type="text" @change="filterFunction" v-model="textString" placeholder="輸入編號，例如45 61 16"><i class="fas fa-search"></i></div>
         <p>料理類型</p>
         <div class="typelist">
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Snack (小吃)" id="checkSnack" name="checkFilter">
-          <label for="checkSnack">Snack (小吃)<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Veggie (蔬菜)" id="checkVeggie" name="checkFilter">
-          <label for="checkVeggie">Veggie (蔬菜)<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Dessert (甜點)" id="checkDessert" name="checkFilter">
-          <label for="checkDessert">Dessert (甜點)<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Bread (麵包)" id="checkBread" name="checkFilter">
-          <label for="checkBread">Bread (麵包)<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Meat (肉類)" id="checkMeat" name="checkFilter">
-          <label for="checkMeat">Meat (肉類)<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Fish (魚類)" id="checkFish" name="checkFilter">
-          <label for="checkFish">Fish (魚類)<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Soup (湯)" id="checkSoup" name="checkFilter">
-          <label for="checkSoup">Soup (湯)<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Pasta (義大利麵)" id="checkPasta" name="checkFilter">
-          <label for="checkPasta">Pasta (義大利麵)<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Cheese (起司)" id="checkCheese" name="checkFilter">
-          <label for="checkCheese">Cheese (起司)<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Snack 小吃" id="checkSnack" name="checkFilter">
+          <label for="checkSnack">Snack 小吃<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Veggie 蔬菜" id="checkVeggie" name="checkFilter">
+          <label for="checkVeggie">Veggie 蔬菜<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Dessert 甜點" id="checkDessert" name="checkFilter">
+          <label for="checkDessert">Dessert 甜點<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Bread 麵包" id="checkBread" name="checkFilter">
+          <label for="checkBread">Bread 麵包<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Meat 肉類" id="checkMeat" name="checkFilter">
+          <label for="checkMeat">Meat 肉類<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Fish 魚類" id="checkFish" name="checkFilter">
+          <label for="checkFish">Fish 魚類<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Soup 湯" id="checkSoup" name="checkFilter">
+          <label for="checkSoup">Soup 湯<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Pasta 義大利麵" id="checkPasta" name="checkFilter">
+          <label for="checkPasta">Pasta 義大利麵<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Cheese 起司" id="checkCheese" name="checkFilter">
+          <label for="checkCheese">Cheese 起司<i class="fas fa-check"></i></label>
         </div>
         <p>烹飪工具</p>
         <select v-model="toolString"  @change="filterFunction"  name="toolFilter" id="toolFilter">
-          <option value="All">All (全部)</option>
-          <option value="Cookpot">Cookpot (吊鍋)</option>
-          <option value="Oven">Oven (窯烤)</option>
-          <option value="Grill">Grill (烤盤)</option>
-          <option value="Cookpot_big">Big Cookpot (大吊鍋)</option>
-          <option value="Oven_big">Big Oven (大窯烤)</option>
-          <option value="Grill_big">Big Grill (大烤盤)</option>
+          <option value="All">All 全部</option>
+          <option value="Cookpot">Cookpot 吊鍋</option>
+          <option value="Oven">Oven 窯烤</option>
+          <option value="Grill">Grill 烤盤</option>
+          <option value="Cookpot_big">Big Cookpot 大吊鍋</option>
+          <option value="Oven_big">Big Oven 大窯烤</option>
+          <option value="Grill_big">Big Grill 大烤盤</option>
         </select>
         <p>金幣數量排序</p>
         <ul class="coinlist">

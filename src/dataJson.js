@@ -5,10 +5,10 @@ export const dataJson = [
     title:'Bread',
     tool: {
       type:'Oven',
-      name: 'Oven (窯烤)',
+      name: 'Oven窯烤',
       iconName: 'casseroledish_small'
     },
-    condition:['Bread (麵包)','Snack (小吃)'],
+    condition:['Bread 麵包','Snack 小吃'],
     ingredients:'全麵粉',
     stuffIcons: [{
         constitute: ['flour', 'flour', 'flour']
@@ -23,10 +23,10 @@ export const dataJson = [
     title: 'Chips',
     tool: {
       type: 'Oven',
-      name: 'Oven (窯烤)',
+      name: 'Oven窯烤',
       iconName: 'casseroledish_small'
     },
-    condition: ['Veggie (蔬菜)', 'Snack (小吃)'],
+    condition: ['Veggie 蔬菜', 'Snack 小吃'],
     ingredients: '馬鈴薯*2+馬鈴薯或香料粉',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'potato']
@@ -43,10 +43,10 @@ export const dataJson = [
     title: 'Veggie Soup',
     tool: {
       type: 'Cookpot',
-      name: 'Cookpot (吊鍋)',
+      name: 'Cookpot吊鍋',
       iconName: 'pot_small'
     },
-    condition: ['Veggie (蔬菜)', 'Snack (小吃)', 'Soup (湯)'],
+    condition: ['Veggie 蔬菜', 'Snack 小吃', 'Soup 湯'],
     ingredients: '蔬菜*3(不可全相同)',
     stuffIcons: [{
       constitute: ['mushrooms', 'potato', 'potato']
@@ -67,10 +67,10 @@ export const dataJson = [
     title: 'Jelly Sandwich',
     tool: {
       type: 'Grill',
-      name: 'Grill (烤盤)',
+      name: 'Grill烤盤',
       iconName: 'grill_small'
     },
-    condition: ['Snack (小吃)', 'Bread (麵包)'],
+    condition: ['Snack 小吃', 'Bread 麵包'],
     ingredients: '漿果+麵粉、楓糖',
     stuffIcons: [{
       constitute: ['berries', 'berries', 'flour']
@@ -91,10 +91,10 @@ export const dataJson = [
     title: 'Fish Stew',
     tool: {
       type: 'Cookpot',
-      name: 'Cookpot (吊鍋)',
+      name: 'Cookpot吊鍋',
       iconName: 'pot_small'
     },
-    condition: ['Soup (湯)', 'Fish (魚類)'],
+    condition: ['Soup 湯', 'Fish 魚類'],
     ingredients: '魚類+蔬菜',
     stuffIcons: [{
         constitute: ['salmon', 'potato', 'potato']
@@ -115,10 +115,10 @@ export const dataJson = [
     title: 'Turnip Cake',
     tool: {
       type: 'Oven',
-      name: 'Oven (窯烤)',
+      name: 'Oven窯烤',
       iconName: 'casseroledish_small'
     },
-    condition: ['Snack (小吃)', 'Veggie (蔬菜)'],
+    condition: ['Snack 小吃', 'Veggie 蔬菜'],
     ingredients: '甜菜*2+甜菜或蔬菜',
     stuffIcons: [{
         constitute: ['turnip', 'turnip', 'carrot']
@@ -139,10 +139,10 @@ export const dataJson = [
     title: 'Potato Pancakes',
     tool: {
       type: 'Grill',
-      name: 'Grill (烤盤)',
+      name: 'Grill烤盤',
       iconName: 'grill_small'
     },
-    condition: ['Snack (小吃)', 'Veggie (蔬菜)'],
+    condition: ['Snack 小吃', 'Veggie 蔬菜'],
     ingredients: '馬鈴薯*2+馬鈴薯或洋蔥',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'potato']
@@ -159,10 +159,10 @@ export const dataJson = [
     title: 'Potato Pancakes',
     tool: {
       type: 'Cookpot',
-      name: 'Cookpot (吊鍋)',
+      name: 'Cookpot吊鍋',
       iconName: 'pot_small'
     },
-    condition: ['Soup (湯)', 'Veggie (蔬菜)', 'Snack (小吃)'],
+    condition: ['Soup 湯', 'Veggie 蔬菜', 'Snack 小吃'],
     ingredients: '馬鈴薯*2+馬鈴薯或香料粉',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'potato']
@@ -181,10 +181,10 @@ export const dataJson = [
     title: 'Fishball Skewers',
     tool: {
       type: 'Grill',
-      name: 'Grill (烤盤)',
+      name: 'Grill烤盤',
       iconName: 'grill_small'
     },
-    condition: ['Fish (魚類)', 'Snack (小吃)'],
+    condition: ['Fish 魚類', 'Snack 小吃'],
     ingredients: '魚類+樹枝、蔬菜',
     stuffIcons: [{
         constitute: ['twigs', 'salmon', 'potato']
@@ -205,10 +205,10 @@ export const dataJson = [
     title: 'Meatballs',
     tool: {
       type: 'Cookpot',
-      name: 'Cookpot (吊鍋)',
+      name: 'Cookpot吊鍋',
       iconName: 'pot_small'
     },
-    condition: ['Meat (肉類)', 'Snack (小吃)'],
+    condition: ['Meat 肉類', 'Snack 小吃'],
     ingredients: '全肉或肉類+蔬菜',
     stuffIcons: [{
       constitute: ['smallmeat', 'potato', 'potato']
