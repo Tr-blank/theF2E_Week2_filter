@@ -68,7 +68,44 @@
         content '確定'
       ~ aside
         top 0
-
+  .filter::-webkit-scrollbar 
+    width: 30px;
+    height: 15px;
+  
+  .filter::-webkit-scrollbar-button 
+    width: 30px;
+    height: 50px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+  .filter::-webkit-scrollbar-button:vertical:increment 
+    background-image: url(/img/quagmire_recipe_scroll_arrow_down.png);
+  
+  .filter::-webkit-scrollbar-button:vertical:decrement 
+    background-image: url(/img/quagmire_recipe_scroll_arrow_up.png);
+  
+  
+  .filter::-webkit-scrollbar-thumb 
+    border: 0px none #ffffff;
+    border-radius: 0px;
+    border-style: solid;
+  
+  .filter::-webkit-scrollbar-thumb:vertical 
+    border-width: 25px 16px 25px 16px;
+    -moz-border-image: url(/img/quagmire_recipe_scroll_handle.png) 25 16 25 16 stretch;
+    -webkit-border-image: url(/img/quagmire_recipe_scroll_handle.png) 25 16 25 16 stretch;
+    -o-border-image: url(/img/quagmire_recipe_scroll_handle.png) 25 16 25 16 stretch;
+    border-image: url(/img/quagmire_recipe_scroll_handle.png) 25 16 25 16 fill stretch;
+  
+  .filter::-webkit-scrollbar-track 
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+  
+  .filter::-webkit-scrollbar-corner 
+    background: transparent;
+  
 
 
   #toolFilter
@@ -122,11 +159,13 @@
       margin: 0; 
       margin-top: 20px;
       color #fff
-    ul,.typelist
+    .typelist,
+    .toolList,
+    .coinlist
       display flex
       flex-wrap wrap
-    li,label
-      padding: 5px 5px;
+    label
+      padding: 5px 0;
       background-color: #18120d;
       margin: 5px 1%;
       font-size 0.85rem
@@ -134,6 +173,7 @@
       border-radius: 3px;
       display block
       text-align  center
+      width 48%
       cursor: pointer;
       transition  background-color .25s ease
       &:hover
@@ -162,12 +202,8 @@
     font-size: 1.75rem
     padding  0 10px
   .typelist
-    li,label
-      width 48%
+    label
       font-size 1rem
-  .coinlist
-    li,label
-      width 48%
 
 .listItem
   border-style: solid;
