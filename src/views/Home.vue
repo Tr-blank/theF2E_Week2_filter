@@ -76,11 +76,13 @@
               <span class="coin" v-for="(money,index) in item.exchange" :key="index" v-if="money!=0"><img class="icon" :src="'img/stuffIcons/quagmire_coin'+(index+1)+'.png'" alt="">{{money}}
               </span>
             </div>
+              <div class="note" v-html="item.exchange_Note"></div>
             <div>
               <span class="titleSmall">銀具供奉</span>
               <span class="coin" v-for="(money,index) in item.more_exchange" :key="index" v-if="money!=0"><img class="icon" :src="'img/stuffIcons/quagmire_coin'+(index+1)+'.png'" alt="">{{money}}
               </span>
             </div>
+              <div class="note" v-html="item.more_exchange_Note"></div>
             <p>{{ item.ingredients}}</p>
             <img src="img/quagmire_recipe_line.png" alt="">
             <div class="stuffList" v-for="(stuff,index) in item.stuffIcons" :key="index">{{index+1}}.

@@ -16,7 +16,9 @@ export const dataJson = [
         constitute: ['flour', 'flour', 'flour', 'flour']
     }],
     exchange: [6, 0, 0, 0],
-    more_exchange: [2, 1, 0, 0]
+    more_exchange: [2, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 2,
@@ -36,7 +38,9 @@ export const dataJson = [
       constitute: ['potato', 'potato', 'potato', 'spotspice_ground']
     }],
     exchange: [6, 0, 0, 0],
-    more_exchange: [2, 1, 0, 0]
+    more_exchange: [2, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 3,
@@ -60,7 +64,9 @@ export const dataJson = [
         constitute: ['potato', 'potato', 'turnip']
     }],
     exchange: [8, 0, 0, 0],
-    more_exchange: [4, 1, 0, 0]
+    more_exchange: [4, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 4,
@@ -84,7 +90,9 @@ export const dataJson = [
         constitute: ['berries', 'berries', 'berries','flour']
     }],
     exchange: [8, 0, 0, 0],
-    more_exchange: [4, 1, 0, 0]
+    more_exchange: [4, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 5,
@@ -108,7 +116,9 @@ export const dataJson = [
         constitute: ['salmon', 'salmon', 'salmon']
     }],
     exchange: [8, 0, 0, 0],
-    more_exchange: [4, 1, 0, 0]
+    more_exchange: [4, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 6,
@@ -132,7 +142,9 @@ export const dataJson = [
         constitute: ['turnip', 'turnip', 'turnip','turnip']
     }],
     exchange: [8, 0, 0, 0],
-    more_exchange: [4, 1, 0, 0]
+    more_exchange: [4, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 7,
@@ -152,7 +164,9 @@ export const dataJson = [
         constitute: ['potato', 'potato', 'potato', 'onion']
     }],
     exchange: [8,0,0,0],
-    more_exchange: [4,1,0,0]
+    more_exchange: [4,1,0,0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 8,
@@ -174,7 +188,9 @@ export const dataJson = [
         constitute: ['potato', 'potato', 'potato', 'spotspice_ground']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 9,
@@ -198,7 +214,9 @@ export const dataJson = [
         constitute: ['twigs', 'salmon', 'salmon']
       }],
     exchange: [10,0,0,0],
-    more_exchange: [7,1,0,0]
+    more_exchange: [7,1,0,0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 10,
@@ -222,7 +240,9 @@ export const dataJson = [
         constitute: ['smallmeat', 'smallmeat', 'smallmeat']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 11,
@@ -246,7 +266,9 @@ export const dataJson = [
         constitute: ['twigs', 'smallmeat', 'smallmeat', 'smallmeat']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 12,
@@ -270,7 +292,9 @@ export const dataJson = [
         constitute: ['rocks', 'mushrooms', 'foliage']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 13,
@@ -294,7 +318,9 @@ export const dataJson = [
         constitute: ['flour', 'potato', 'mushrooms']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 14,
@@ -322,7 +348,9 @@ export const dataJson = [
         constitute: ['potato', 'carrot', 'turnip']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 15,
@@ -346,7 +374,9 @@ export const dataJson = [
         constitute: ['smallmeat', 'smallmeat', 'smallmeat']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 16,
@@ -370,7 +400,9 @@ export const dataJson = [
         constitute: ['carrot', 'carrot', 'carrot','carrot']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 17,
@@ -394,7 +426,9 @@ export const dataJson = [
         constitute: ['flour', 'salmon', 'mushrooms']
     }],
     exchange: [10, 0, 0, 0],
-    more_exchange: [7, 1, 0, 0]
+    more_exchange: [7, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 18,
@@ -416,7 +450,9 @@ export const dataJson = [
         constitute: ['flour', 'salmon', 'potato', 'salmon']
     }],
     exchange: [12, 0, 0, 0],
-    more_exchange: [2, 3, 0, 0]
+    more_exchange: [2, 3, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 19,
@@ -440,7 +476,9 @@ export const dataJson = [
         constitute: ['flour', 'smallmeat', 'mushrooms']
       }],
     exchange: [12, 0, 0, 0],
-    more_exchange: [2, 3, 0, 0]
+    more_exchange: [2, 3, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 20,
@@ -464,7 +502,9 @@ export const dataJson = [
         constitute: ['flour', 'smallmeat', 'smallmeat']
     }],
     exchange: [12, 0, 0, 0],
-    more_exchange: [2, 3, 0, 0]
+    more_exchange: [2, 3, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 21,
@@ -487,8 +527,10 @@ export const dataJson = [
     }, {
         constitute: ['berries', 'berries', 'syrup','syrup']
     }],
-    exchange: [0,1 , 0, 0],
-    more_exchange: [1, 2, 0, 0]
+    exchange: [6,0 , 0, 0],
+    more_exchange: [1, 2, 0, 0],
+    exchange_Note: '(一般供奉限定甜點1彩)',
+    more_exchange_Note:''
   },
   {
     id: 22,
@@ -508,7 +550,9 @@ export const dataJson = [
         constitute: ['berries', 'berries', 'berries', 'flour']
     }],
     exchange: [2, 1, 0, 0],
-    more_exchange: [4, 1, 0, 0]
+    more_exchange: [4, 1, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 23,
@@ -530,7 +574,9 @@ export const dataJson = [
         constitute: ['flour', 'flour', 'carrot', 'goatmilk']
       }],
     exchange: [6, 1, 0, 0],
-    more_exchange: [3,2, 0, 0]
+    more_exchange: [3,2, 0, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 24,
@@ -548,7 +594,9 @@ export const dataJson = [
         constitute: ['potato', 'potato', 'potato', 'garlic']
     }],
     exchange: [6, 1, 0, 0],
-    more_exchange: [3, 0, 1, 0]
+    more_exchange: [3, 0, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 25,
@@ -568,7 +616,9 @@ export const dataJson = [
         constitute: ['flour', 'flour', 'garlic', 'garlic']
       }],
     exchange: [6, 1, 0, 0],
-    more_exchange: [3, 0, 1, 0]
+    more_exchange: [3, 0, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 26,
@@ -592,7 +642,9 @@ export const dataJson = [
         constitute: ['tomato', 'tomato', 'tomato', 'tomato']
       }],
     exchange: [8, 1, 0, 0],
-    more_exchange: [6, 0, 1, 0]
+    more_exchange: [6, 0, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 27,
@@ -616,7 +668,9 @@ export const dataJson = [
         constitute: ['smallmeat', 'smallmeat', 'spotspice_ground']
     }],
     exchange: [8, 1, 0, 0],
-    more_exchange: [6, 0, 1, 0]
+    more_exchange: [6, 0, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 28,
@@ -636,7 +690,9 @@ export const dataJson = [
         constitute: ['salmon', 'salmon', 'syrup', 'syrup']
     }],
     exchange: [4, 2, 0, 0],
-    more_exchange: [2, 1, 1, 0]
+    more_exchange: [2, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 29,
@@ -654,7 +710,9 @@ export const dataJson = [
         constitute: ['garlic', 'onion', 'mushrooms', 'mushrooms']
     }],
     exchange: [4, 2, 0, 0],
-    more_exchange: [2, 1, 1, 0]
+    more_exchange: [2, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 30,
@@ -678,7 +736,9 @@ export const dataJson = [
         constitute: ['tomato', 'onion', 'turnip', 'carrot']
       }],
     exchange: [4, 2, 0, 0],
-    more_exchange: [2, 1, 1, 0]
+    more_exchange: [2, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 31,
@@ -702,7 +762,9 @@ export const dataJson = [
         constitute: ['flour', 'tomato', 'goatmilk', 'garlic']
     }],
     exchange: [6, 2, 0, 0],
-    more_exchange: [5, 1, 1, 0]
+    more_exchange: [5, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 32,
@@ -726,7 +788,9 @@ export const dataJson = [
         constitute: ['smallmeat', 'smallmeat', 'smallmeat', 'smallmeat']
     }],
     exchange: [6, 2, 0, 0],
-    more_exchange: [5, 1, 1, 0]
+    more_exchange: [5, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   }, {
     id: 33,
     title: 'Hamburger',
@@ -749,7 +813,9 @@ export const dataJson = [
         constitute: ['smallmeat', 'smallmeat', 'smallmeat', 'flour']
     }],
     exchange: [6, 2, 0, 0],
-    more_exchange: [5, 1, 1, 0]
+    more_exchange: [5, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 34,
@@ -773,7 +839,9 @@ export const dataJson = [
         constitute: ['salmon', 'salmon', 'flour', 'flour']
     }],
     exchange: [6, 2, 0, 0],
-    more_exchange: [5, 1, 1, 0]
+    more_exchange: [5, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 35,
@@ -797,7 +865,9 @@ export const dataJson = [
         constitute: ['flour', 'mushrooms', 'mushrooms', 'mushrooms']
       }],
     exchange: [6, 2, 0, 0],
-    more_exchange: [5, 1, 1, 0]
+    more_exchange: [5, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 36,
@@ -807,7 +877,7 @@ export const dataJson = [
       name: 'Big Grill大烤盤',
       iconName: 'grill'
     }],
-    condition: ['Fish 魚肉'],
+    condition: ['Fish 魚'],
     ingredients: '魚+蕨類+香料+菜',
     stuffIcons: [{
       constitute: ['foliage' ,'salmon', 'spotspice_ground','carrot']
@@ -821,7 +891,9 @@ export const dataJson = [
         constitute: ['foliage', 'salmon', 'spotspice_ground', 'tomato']
       }],
     exchange: [8, 2, 0, 0],
-    more_exchange: [7, 1, 1, 0]
+    more_exchange: [7, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 37,
@@ -845,7 +917,9 @@ export const dataJson = [
         constitute: ['smallmeat', 'spotspice_ground', 'spotspice_ground', 'tomato']
       }],
     exchange: [8, 2, 0, 0],
-    more_exchange: [7, 1, 1, 0]
+    more_exchange: [7, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 38,
@@ -867,7 +941,9 @@ export const dataJson = [
       constitute: ['smallmeat', 'flour', 'tomato', 'spotspice_ground']
     }],
     exchange: [8, 2, 0, 0],
-    more_exchange: [7, 1, 1, 0]
+    more_exchange: [7, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 39,
@@ -889,7 +965,9 @@ export const dataJson = [
       constitute: ['smallmeat', 'flour', 'tomato', 'spotspice_ground']
     }],
     exchange: [8, 2, 0, 0],
-    more_exchange: [7, 1, 1, 0]
+    more_exchange: [7, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   }, {
     id: 40,
     title: 'Poached Fish',
@@ -912,7 +990,9 @@ export const dataJson = [
         constitute: ['salmon', 'foliage', 'spotspice_ground', 'tomato']
       }],
     exchange: [8, 2, 0, 0],
-    more_exchange: [7, 1, 1, 0]
+    more_exchange: [7, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 41,
@@ -936,7 +1016,9 @@ export const dataJson = [
       constitute: ['smallmeat', 'potato', 'garlic', 'turnip']
     }],
     exchange: [8, 2, 0, 0],
-    more_exchange: [7, 1, 1, 0]
+    more_exchange: [7, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 42,
@@ -954,7 +1036,9 @@ export const dataJson = [
       constitute: ['syrup', 'syrup', 'syrup', 'syrup']
     }],
     exchange: [2, 0, 1, 0],
-    more_exchange: [6, 0, 1, 0]
+    more_exchange: [6, 0, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 43,
@@ -978,7 +1062,9 @@ export const dataJson = [
         constitute: ['flour', 'flour', 'syrup', 'syrup']
       }],
     exchange: [4, 0, 1, 0],
-    more_exchange: [2, 1, 1, 0]
+    more_exchange: [2, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 44,
@@ -998,7 +1084,9 @@ export const dataJson = [
       constitute: ['flour', 'flour', 'syrup', 'syrup']
     },],
     exchange: [4, 0, 1, 0],
-    more_exchange: [2, 1, 1, 0]
+    more_exchange: [2, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 45,
@@ -1018,7 +1106,9 @@ export const dataJson = [
         constitute: ['flour', 'syrup', 'syrup', 'berries']
     }],
     exchange: [6, 0, 1, 0],
-    more_exchange: [5, 1, 1, 0]
+    more_exchange: [5, 1, 1, 0],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 46,
@@ -1038,7 +1128,9 @@ export const dataJson = [
       constitute: ['flour', 'flour', 'goatmilk', 'goatmilk']
     },],
     exchange: [8, 0, 1, 0],
-    more_exchange: [7, 0, 0, 1]
+    more_exchange: [7, 0, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 47,
@@ -1056,7 +1148,9 @@ export const dataJson = [
       constitute: ['salmon', 'flour', 'goatmilk', 'onion']
     }],
     exchange: [8, 0, 1, 0],
-    more_exchange: [7, 0, 0, 1]
+    more_exchange: [7, 0, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: '(銀具供奉魚類無彩)'
   },
   {
     id: 48,
@@ -1076,7 +1170,9 @@ export const dataJson = [
       constitute: ['flour', 'flour', 'goatmilk', 'goatmilk']
     }],
     exchange: [8, 0, 1, 0],
-    more_exchange: [7, 0, 0, 1]
+    more_exchange: [7, 0, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 49,
@@ -1096,7 +1192,9 @@ export const dataJson = [
       constitute: ['mushrooms', 'mushrooms', 'goatmilk', 'goatmilk']
     }],
     exchange: [8, 0, 1, 0],
-    more_exchange: [7, 0, 0, 1]
+    more_exchange: [7, 0, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: '(銀具供奉限定湯)'
   }
   , {
     id: 50,
@@ -1120,7 +1218,9 @@ export const dataJson = [
         constitute: ['flour', 'goatmilk', 'goatmilk', 'potato']
     }],
     exchange: [4, 1, 1, 0],
-    more_exchange: [4, 1, 0, 1]
+    more_exchange: [4, 1, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 51,
@@ -1142,7 +1242,9 @@ export const dataJson = [
       constitute: ['flour', 'tomato', 'goatmilk', 'goatmilk']
     }],
     exchange: [6, 1, 1, 0],
-    more_exchange: [6, 1, 0, 1]
+    more_exchange: [6, 1, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 52,
@@ -1166,7 +1268,9 @@ export const dataJson = [
       constitute: [ 'flour','goatmilk', 'smallmeat', 'smallmeat']
     }],
     exchange: [6, 1, 1, 0],
-    more_exchange: [6, 1, 0, 1]
+    more_exchange: [6, 1, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 53,
@@ -1182,7 +1286,9 @@ export const dataJson = [
       constitute: ['flour', 'garlic', 'goatmilk', 'goatmilk']
     }],
     exchange: [8, 1, 1, 0],
-    more_exchange: [3, 0, 1, 1]
+    more_exchange: [3, 0, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 54,
@@ -1198,7 +1304,9 @@ export const dataJson = [
       constitute: ['flour', 'goatmilk', 'onion', 'onion']
     }],
     exchange: [8, 1, 1, 0],
-    more_exchange: [3, 0, 1, 1]
+    more_exchange: [3, 0, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 55,
@@ -1216,7 +1324,9 @@ export const dataJson = [
       constitute: ['meat', 'meat', 'flour', 'flour']
     }],
     exchange: [8, 1, 1, 0],
-    more_exchange: [3, 0, 1, 1]
+    more_exchange: [3, 0, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 56,
@@ -1236,7 +1346,9 @@ export const dataJson = [
         constitute: ['salmon', 'spotspice_ground', 'goatmilk', 'goatmilk']
       }],
     exchange: [8, 1, 1, 0],
-    more_exchange: [3, 0, 1, 1]
+    more_exchange: [3, 0, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 57,
@@ -1252,7 +1364,9 @@ export const dataJson = [
       constitute: ['smallmeat', 'flour', 'goatmilk', 'tomato']
     }],
     exchange: [4, 0, 2, 0],
-    more_exchange: [5, 0, 1, 1]
+    more_exchange: [5, 0, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 58,
@@ -1276,7 +1390,9 @@ export const dataJson = [
       constitute: ['meat', 'meat', 'garlic', 'tomato']
     }],
     exchange: [4, 0, 2, 0],
-    more_exchange: [5, 0, 1, 1]
+    more_exchange: [5, 0, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 59,
@@ -1300,7 +1416,9 @@ export const dataJson = [
       constitute: ['flour','crabmeat', 'crabmeat',  'spotspice_ground']
     }],
     exchange: [4, 0, 2, 0],
-    more_exchange: [5, 0, 1, 1]
+    more_exchange: [5, 0, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 60,
@@ -1320,7 +1438,9 @@ export const dataJson = [
       constitute: ['meat', 'meat', 'potato', 'spotspice_ground']
     }],
     exchange: [6, 0, 2, 0],
-    more_exchange: [2, 1, 1, 1]
+    more_exchange: [2, 1, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 61,
@@ -1344,7 +1464,9 @@ export const dataJson = [
         constitute: ['meat', 'meat', 'mushrooms', 'flour']
     }],
     exchange: [6, 0, 2, 0],
-    more_exchange: [2, 1, 1, 1]
+    more_exchange: [2, 1, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 62,
@@ -1364,7 +1486,9 @@ export const dataJson = [
         constitute: ['meat', 'meat', 'smallmeat', 'smallmeat']
       }],
     exchange: [8, 0, 2, 0],
-    more_exchange: [4, 1, 1, 1]
+    more_exchange: [4, 1, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 63,
@@ -1388,7 +1512,9 @@ export const dataJson = [
       constitute: ['crabmeat', 'crabmeat', 'mushrooms', 'flour']
     }],
     exchange: [4, 1, 2, 0],
-    more_exchange: [7, 1, 1, 1]
+    more_exchange: [7, 1, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 64,
@@ -1412,7 +1538,9 @@ export const dataJson = [
       constitute: ['meat', 'meat', 'flour', 'garlic']
     }],
     exchange: [4, 1, 2, 0],
-    more_exchange: [7, 1, 1, 1]
+    more_exchange: [7, 1, 1, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 65,
@@ -1436,7 +1564,9 @@ export const dataJson = [
       constitute: ['crabmeat', 'crabmeat', 'goatmilk', 'flour']
     }],
     exchange: [6, 1, 2, 0],
-    more_exchange: [3, 0, 2, 1]
+    more_exchange: [3, 0, 2, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 66,
@@ -1456,7 +1586,9 @@ export const dataJson = [
       constitute: ['goatmilk', 'goatmilk', 'syrup', 'syrup']
     }],
     exchange: [2, 0, 0, 1],
-    more_exchange: [7, 0, 0, 1]
+    more_exchange: [7, 0, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 67,
@@ -1472,7 +1604,9 @@ export const dataJson = [
       constitute: ['flour', 'flour', 'goatmilk','berries' ]
     }],
     exchange: [4, 0, 0, 1],
-    more_exchange: [4, 1, 0, 1]
+    more_exchange: [4, 1, 0, 1],
+    exchange_Note: '(一般供奉限定甜點有彩)',
+    more_exchange_Note: ''
   },
   {
     id: 68,
@@ -1488,7 +1622,9 @@ export const dataJson = [
       constitute: ['flour', 'flour', 'goatmilk', 'berries']
     }],
     exchange: [6, 0, 0, 1],
-    more_exchange: [6, 1, 0, 1]
+    more_exchange: [6, 1, 0, 1],
+    exchange_Note: '',
+    more_exchange_Note: ''
   },
   {
     id: 69,
@@ -1501,9 +1637,11 @@ export const dataJson = [
     condition: ['Cheese 起司', 'Dessert 甜點'],
     ingredients: '羊奶x2+莓果+麵粉',
     stuffIcons: [{
-      constitute: ['flour', 'goatmilk', 'goatmilk','crabmeat']
+      constitute: ['flour', 'goatmilk', 'goatmilk', 'berries']
     }],
     exchange: [2, 1, 0, 1],
-    more_exchange: [3, 0, 1, 1]
+    more_exchange: [3, 0, 1, 1],
+    exchange_Note: '(一般供奉限定甜點有彩)',
+    more_exchange_Note: '(銀具供奉限定甜點有彩)'
   }
 ]
