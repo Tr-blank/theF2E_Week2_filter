@@ -54,7 +54,7 @@
           <label for="radio1">銅幣<i class="fas fa-long-arrow-alt-down"></i></label>
         </div>
         <div class="footer">
-        <div class="partner">特此感謝<span class="strong">笨蛋孟</span>及<span class="strong">魚肉</span>協助彙整遊戲資料</div>
+        <div class="partner">特此感謝<span class="strong">笨盪孟</span>及<span class="strong">魚肉</span>協助彙整遊戲資料</div>
       <div>圖片資料皆取自<a class="footerLink" target="_blank" href="https://forums.kleientertainment.com/gorge-recipe-book/">遊戲官方食譜</a>及<a class="footerLink" target="_blank" href="https://docs.google.com/document/d/11w3icU7syMySWet8xG74Cellsl0JdOB-mq129tPDte8/edit">巴哈姆特食譜清單</a></div>
       <div>此網站為<a class="footerLink" target="_blank" href="http://www.hexschool.com/2018/05/09/2018-05-09-the_f2e/">前端修練活動</a>作品</div>
       <div>網站內容僅供資料篩選及分享用途</div>

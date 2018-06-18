@@ -1442,9 +1442,9 @@ export const dataJson = [
     id: 66,
     title: 'Caramel Cube',
     tool: [{
-      type: 'Big Cookpot',
-      name: 'Big Cookpot大吊鍋',
-      iconName: 'pot'
+      type: 'Cookpot',
+      name: 'Cookpot吊鍋',
+      iconName: 'pot_small'
     }],
     condition: ['Dessert 甜點'],
     ingredients: '羊奶+楓糖+(牛奶、楓糖)',
