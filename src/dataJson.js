@@ -27,7 +27,7 @@ export const dataJson = [
       iconName: 'casseroledish_small'
     }],
     condition: ['Veggie 蔬菜', 'Snack 小吃'],
-    ingredients: '馬鈴薯*2+馬鈴薯或香料粉',
+    ingredients: '馬鈴薯*2+(馬鈴薯、香料)',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'potato']
     }, {
@@ -71,7 +71,7 @@ export const dataJson = [
       iconName: 'grill_small'
     }],
     condition: ['Snack 小吃', 'Bread 麵包'],
-    ingredients: '漿果+麵粉、密糖',
+    ingredients: '漿果+麵粉+(密糖)',
     stuffIcons: [{
       constitute: ['berries', 'berries', 'flour']
     }, {
@@ -94,8 +94,8 @@ export const dataJson = [
       name: 'Cookpot吊鍋',
       iconName: 'pot_small'
     }],
-    condition: ['Soup 湯', 'Fish 魚類'],
-    ingredients: '魚類+蔬菜',
+    condition: ['Soup 湯', 'Fish 魚'],
+    ingredients: '魚+蔬菜',
     stuffIcons: [{
         constitute: ['salmon', 'potato', 'potato']
     }, {
@@ -119,11 +119,11 @@ export const dataJson = [
       iconName: 'casseroledish_small'
     }],
     condition: ['Snack 小吃', 'Veggie 蔬菜'],
-    ingredients: '甜菜*2+甜菜或蔬菜',
+    ingredients: '甜菜*2+(甜菜、蔬菜)',
     stuffIcons: [{
         constitute: ['turnip', 'turnip', 'carrot']
     }, {
-        constitute: ['turnip', 'turnip', 'ingredient_slot']
+        constitute: ['turnip', 'turnip', 'onion']
       }, {
         constitute: ['turnip', 'turnip', 'turnip']
       }, {
@@ -143,13 +143,13 @@ export const dataJson = [
       iconName: 'grill_small'
     }],
     condition: ['Snack 小吃', 'Veggie 蔬菜'],
-    ingredients: '馬鈴薯*2+馬鈴薯或洋蔥',
+    ingredients: '馬鈴薯*2+(馬鈴薯、洋蔥)',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'potato']
     }, {
-        constitute: ['potato', 'potato', 'ingredient_slot']
+        constitute: ['potato', 'potato', 'onion']
     }, {
-        constitute: ['potato', 'potato', 'potato', 'ingredient_slot']
+        constitute: ['potato', 'potato', 'potato', 'onion']
     }],
     exchange: [8,0,0,0],
     more_exchange: [4,1,0,0]
@@ -163,7 +163,7 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Soup 湯', 'Veggie 蔬菜', 'Snack 小吃'],
-    ingredients: '馬鈴薯*2+馬鈴薯或香料粉',
+    ingredients: '馬鈴薯*2+(馬鈴薯、香料)',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'potato']
     }, {
@@ -184,14 +184,14 @@ export const dataJson = [
       name: 'Grill烤盤',
       iconName: 'grill_small'
     }],
-    condition: ['Fish 魚類', 'Snack 小吃'],
-    ingredients: '魚類+樹枝、蔬菜',
+    condition: ['Fish 魚', 'Snack 小吃'],
+    ingredients: '魚+樹枝+(蔬菜)',
     stuffIcons: [{
         constitute: ['twigs', 'salmon', 'potato']
       }, {
         constitute: ['twigs', 'salmon', 'carrot']
       }, {
-        constitute: ['twigs', 'salmon', 'ingredient_slot']
+        constitute: ['twigs', 'salmon', 'onion']
       }, {
         constitute: ['twigs', 'salmon', 'turnip']
       }, {
@@ -208,8 +208,8 @@ export const dataJson = [
       name: 'Cookpot吊鍋',
       iconName: 'pot_small'
     }],
-    condition: ['Meat 肉類', 'Snack 小吃'],
-    ingredients: '全肉或肉類+蔬菜',
+    condition: ['Meat 肉', 'Snack 小吃'],
+    ingredients: '肉+(蔬菜)',
     stuffIcons: [{
       constitute: ['smallmeat', 'potato', 'potato']
     }, {
@@ -232,12 +232,12 @@ export const dataJson = [
       name: 'Grill烤盤',
       iconName: 'grill_small'
     }],
-    condition: ['Meat 肉類', 'Snack 小吃'],
-    ingredients: '肉類*2+樹枝',
+    condition: ['Meat 肉', 'Snack 小吃'],
+    ingredients: '肉*2+樹枝',
     stuffIcons: [{
       constitute: ['twigs', 'smallmeat', 'smallmeat']
     }, {
-        constitute: ['twigs', 'smallmeat', 'smallmeat', 'ingredient_slot']
+        constitute: ['twigs', 'smallmeat', 'smallmeat', 'onion']
     }, {
         constitute: ['twigs', 'smallmeat', 'smallmeat', 'mushrooms']
     }, {
@@ -281,7 +281,7 @@ export const dataJson = [
       iconName: 'casseroledish_small'
     }],
     condition: ['Veggie 蔬菜', 'Snack 小吃'],
-    ingredients: '馬鈴薯+麵粉、蔬菜',
+    ingredients: '馬鈴薯+麵粉+(蔬菜)',
     stuffIcons: [{
       constitute: ['flour', 'potato', 'potato']
     }, {
@@ -289,7 +289,7 @@ export const dataJson = [
     }, {
         constitute: ['flour', 'potato', 'turnip']
     }, {
-        constitute: ['flour', 'potato', 'ingredient_slot']
+        constitute: ['flour', 'potato', 'onion']
     }, {
         constitute: ['flour', 'potato', 'mushrooms']
     }],
@@ -332,8 +332,8 @@ export const dataJson = [
       name: 'Oven窯烤',
       iconName: 'casseroledish_small'
     }],
-    condition: ['Meat 肉類'],
-    ingredients: '肉類+肉或蔬菜',
+    condition: ['Meat 肉'],
+    ingredients: '肉+(蔬菜)',
     stuffIcons: [{
       constitute: ['smallmeat', 'potato', 'potato']
     }, {
@@ -357,7 +357,7 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Soup 湯', 'Veggie 蔬菜', 'Snack 小吃'],
-    ingredients: '蘿蔔*2+蘿蔔、香料、蒜',
+    ingredients: '蘿蔔*2+(蘿蔔、香料、蒜頭)',
     stuffIcons: [{
       constitute: ['carrot', 'carrot', 'carrot']
     }, {
@@ -380,14 +380,14 @@ export const dataJson = [
       name: 'Oven窯烤',
       iconName: 'casseroledish_small'
     }],
-    condition: ['Fish 魚類'],
-    ingredients: '麵粉+魚、蔬菜',
+    condition: ['Fish 魚'],
+    ingredients: '麵粉+魚+(蔬菜)',
     stuffIcons: [{
       constitute: ['flour', 'salmon', 'carrot']
     }, {
         constitute: ['flour', 'salmon', 'turnip']
     }, {
-        constitute: ['flour', 'salmon', 'ingredient_slot']
+        constitute: ['flour', 'salmon', 'onion']
     }, {
         constitute: ['flour', 'salmon', 'tomato']
     }, {
@@ -404,7 +404,7 @@ export const dataJson = [
       name: 'Oven窯烤',
       iconName: 'casseroledish_small'
     }],
-    condition: ['Fish 魚類'],
+    condition: ['Fish 魚'],
     ingredients: '麵粉+魚+馬鈴薯',
     stuffIcons: [{
       constitute: ['flour', 'salmon', 'potato']
@@ -426,8 +426,8 @@ export const dataJson = [
       name: 'Oven窯烤',
       iconName: 'casseroledish_small'
     }],
-    condition: ['Meat 肉類'],
-    ingredients: '麵粉+肉類+蔬菜',
+    condition: ['Meat 肉'],
+    ingredients: '麵粉+肉+蔬菜',
     stuffIcons: [{
       constitute: ['flour', 'smallmeat', 'potato']
     }, {
@@ -435,7 +435,7 @@ export const dataJson = [
     }, {
         constitute: ['flour', 'smallmeat', 'turnip']
     }, {
-        constitute: ['flour', 'smallmeat', 'ingredient_slot']
+        constitute: ['flour', 'smallmeat', 'onion']
       }, {
         constitute: ['flour', 'smallmeat', 'mushrooms']
       }],
@@ -450,8 +450,8 @@ export const dataJson = [
       name: 'Cookpot吊鍋',
       iconName: 'pot_small'
     }],
-    condition: ['Bread 麵包','Snack 小吃','Meat 肉類'],
-    ingredients: '麵粉+肉類、任意',
+    condition: ['Bread 麵包','Snack 小吃','Meat 肉'],
+    ingredients: '麵粉+肉+(任意)',
     stuffIcons: [{
       constitute: ['flour', 'flour', 'smallmeat']
     }, {
@@ -475,7 +475,7 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Dessert 甜點', 'Snack 小吃'],
-    ingredients: '漿果*2、密糖',
+    ingredients: '漿果*2+(密糖)',
     stuffIcons: [{
       constitute: ['berries', 'berries', 'berries']
     }, {
@@ -499,7 +499,7 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Dessert 甜點'],
-    ingredients: '漿果*2、麵粉',
+    ingredients: '漿果*2+麵粉',
     stuffIcons: [{
       constitute: ['berries', 'berries', 'flour']
     }, {
@@ -519,7 +519,7 @@ export const dataJson = [
       iconName: 'casseroledish_small'
     }],
     condition: ['Dessert 甜點'],
-    ingredients: '麵粉*2+蘿蔔、羊奶、密糖、蘿蔔',
+    ingredients: '麵粉*2+(蘿蔔、羊奶、密糖、蘿蔔)',
     stuffIcons: [{
       constitute: ['flour', 'flour', 'carrot']
     }, {
@@ -541,7 +541,7 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Snack 小吃', 'Veggie 蔬菜'],
-    ingredients: '馬鈴薯*2+蒜頭、馬鈴薯',
+    ingredients: '馬鈴薯*2+(蒜頭、馬鈴薯)',
     stuffIcons: [{
       constitute: ['potato', 'potato', 'garlic']
     }, {
@@ -559,7 +559,7 @@ export const dataJson = [
       iconName: 'casseroledish_small'
     }],
     condition: ['Snack 小吃', 'Bread 麵包'],
-    ingredients: '麵粉*2+蒜頭、麵粉',
+    ingredients: '麵粉*2+(蒜頭、麵粉)',
     stuffIcons: [{
       constitute: ['flour', 'flour', 'garlic']
     }, {
@@ -579,7 +579,7 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Snack 小吃', 'Veggie 蔬菜', 'Soup 湯'],
-    ingredients: '番茄*2、番茄、蒜頭、香料',
+    ingredients: '番茄*2+(番茄、蒜頭、香料)',
     stuffIcons: [{
       constitute: ['tomato', 'tomato', 'tomato']
     }, {
@@ -602,8 +602,8 @@ export const dataJson = [
       name: 'Grill烤盤',
       iconName: 'grill_small'
     }],
-    condition: ['Snack 小吃', 'Meat 肉類'],
-    ingredients: '肉類+香料、蔬菜',
+    condition: ['Snack 小吃', 'Meat 肉'],
+    ingredients: '肉+香料+(蔬菜)',
     stuffIcons: [{
       constitute: ['smallmeat', 'foliage', 'smallmeat']
     }, {
@@ -626,8 +626,8 @@ export const dataJson = [
       name: 'Oven窯烤',
       iconName: 'casseroledish_small'
     }],
-    condition: ['Snack 小吃', 'Fish 魚類'],
-    ingredients: '魚類+蜜糖',
+    condition: ['Snack 小吃', 'Fish 魚'],
+    ingredients: '魚+楓糖',
     stuffIcons: [{
       constitute: ['salmon', 'syrup', 'syrup']
     }, {
@@ -649,9 +649,9 @@ export const dataJson = [
     condition: ['Snack 小吃', 'Veggie 蔬菜'],
     ingredients: '蘑菇+洋蔥+大蒜',
     stuffIcons: [{
-      constitute: ['garlic', 'ingredient_slot', 'mushrooms']
+      constitute: ['garlic', 'onion', 'mushrooms']
     }, {
-        constitute: ['garlic', 'ingredient_slot', 'mushrooms', 'mushrooms']
+        constitute: ['garlic', 'onion', 'mushrooms', 'mushrooms']
     }],
     exchange: [4, 2, 0, 0],
     more_exchange: [2, 1, 1, 0]
@@ -660,22 +660,22 @@ export const dataJson = [
     id: 30,
     title: 'Ratatouille',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
-      iconName: 'casseroledish_small'
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
+      iconName: 'casseroledish'
     }],
     condition: ['Veggie 蔬菜'],
     ingredients: '番茄+蔬菜*3(不同種)',
     stuffIcons: [{
       constitute: ['tomato', 'potato', 'turnip','carrot']
     }, {
-        constitute: ['tomato', 'potato', 'ingredient_slot', 'carrot']
+        constitute: ['tomato', 'potato', 'onion', 'carrot']
       }, {
-        constitute: ['tomato', 'potato', 'turnip', 'ingredient_slot']
+        constitute: ['tomato', 'potato', 'turnip', 'onion']
       }, {
         constitute: ['tomato', 'potato', 'turnip', 'mushrooms']
       }, {
-        constitute: ['tomato', 'ingredient_slot', 'turnip', 'carrot']
+        constitute: ['tomato', 'onion', 'turnip', 'carrot']
       }],
     exchange: [4, 2, 0, 0],
     more_exchange: [2, 1, 1, 0]
@@ -684,12 +684,12 @@ export const dataJson = [
     id: 31,
     title: 'Bruschetta',
     tool: [{
-      type: 'Grill',
-      name: 'Grill烤盤',
-      iconName: 'grill_small'
+      type: 'Big Grill',
+      name: 'Big Grill大烤盤',
+      iconName: 'grill'
     }],
     condition: ['Veggie 蔬菜', 'Bread 麵包', 'Snack 小吃'],
-    ingredients: '番茄+麵粉、填料*2',
+    ingredients: '番茄+麵粉+(填料*2)',
     stuffIcons: [{
       constitute: ['flour', 'tomato', 'tomato', 'garlic']
     }, {
@@ -708,12 +708,12 @@ export const dataJson = [
     id: 32,
     title: 'Meat Stew',
     tool: [{
-      type: 'Cookpot',
-      name: 'Cookpot吊鍋',
-      iconName: 'pot_small'
+      type: 'Big Cookpot',
+      name: 'Big Cookpot大吊鍋',
+      iconName: 'pot'
     }],
-    condition: ['Meat 肉類', 'Soup 湯'],
-    ingredients: '肉類*2、肉類、香料、蔬菜',
+    condition: ['Meat 肉', 'Soup 湯'],
+    ingredients: '肉*2+(肉、香料、蔬菜)',
     stuffIcons: [{
       constitute: ['smallmeat', 'smallmeat', 'potato', 'potato']
     }, {
@@ -721,7 +721,7 @@ export const dataJson = [
     }, {
         constitute: ['smallmeat', 'smallmeat', 'spotspice_ground', 'carrot']
     }, {
-        constitute: ['smallmeat', 'smallmeat', 'spotspice_ground', 'ingredient_slot']
+        constitute: ['smallmeat', 'smallmeat', 'spotspice_ground', 'onion']
     }, {
         constitute: ['smallmeat', 'smallmeat', 'smallmeat', 'smallmeat']
     }],
@@ -731,22 +731,22 @@ export const dataJson = [
     id: 33,
     title: 'Hamburger',
     tool: [{
-      type: 'Grill',
-      name: 'Grill烤盤',
+      type: 'Big Grill',
+      name: 'Big Grill大烤盤',
       iconName: 'grill'
     }],
-    condition: ['Bread 麵包', 'Meat 肉類'],
-    ingredients: '麵粉x2+肉+蕨類',
+    condition: ['Bread 麵包', 'Meat 肉'],
+    ingredients: '麵粉+肉+(香料、蕨類)',
     stuffIcons: [{
-      constitute: ['smallmeat', 'smallmeat', 'smallmeat', 'flour']
+      constitute: ['smallmeat', 'foliage', 'flour', 'flour']
     }, {
-      constitute: ['goatmilk', 'flour', 'flour', 'foliage']
-    }, {
-      constitute: ['goatmilk', 'goatmilk', 'flour', 'flour']
-    }, {
-      constitute: ['goatmilk', 'flour', 'flour', 'spotspice_ground']
-    }, {
-      constitute: ['goatmilk', 'goatmilk', 'flour', 'spotspice_ground']
+        constitute: ['smallmeat', 'spotspice_ground', 'flour','flour']
+      }, {
+        constitute: ['smallmeat', 'smallmeat', 'flour', 'flour']
+      }, {
+        constitute: ['smallmeat', 'smallmeat', 'spotspice_ground', 'flour']
+      }, {
+        constitute: ['smallmeat', 'smallmeat', 'smallmeat', 'flour']
     }],
     exchange: [6, 2, 0, 0],
     more_exchange: [5, 1, 1, 0]
@@ -755,22 +755,22 @@ export const dataJson = [
     id: 34,
     title: 'Fish Burger',
     tool: [{
-      type: 'Grill',
-      name: 'Grill烤盤',
-      iconName: 'Grill'
+      type: 'Big Grill',
+      name: 'Big Grill大烤盤',
+      iconName: 'grill'
     }],
-    condition: ['Fish 魚類', 'Bread 麵包'],
-    ingredients: '麵粉x2+魚+香料',
+    condition: ['Fish 魚', 'Bread 麵包'],
+    ingredients: '麵粉+魚+(香料、蕨類)',
     stuffIcons: [{
-      constitute: ['flour', 'flour', 'salmon', 'salmon']
+      constitute: ['salmon', 'foliage', 'flour', 'flour']
     }, {
-      constitute: ['flour', 'foliage', 'salmon', 'salmon']
+        constitute: ['salmon', 'tomato', 'flour', 'flour']
+      }, {
+        constitute: ['salmon', 'salmon', 'foliage', 'flour']
+      }, {
+      constitute: ['salmon', 'salmon', 'spotspice_ground', 'flour']
     }, {
-      constitute: ['flour', 'salmon', 'salmon', 'spotspice_ground']
-    }, {
-      constitute: ['flour', 'flour', 'foliage', 'salmon']
-    }, {
-      constitute: ['flour', 'flour', 'salmon', 'tomato']
+        constitute: ['salmon', 'salmon', 'flour', 'flour']
     }],
     exchange: [6, 2, 0, 0],
     more_exchange: [5, 1, 1, 0]
@@ -779,23 +779,23 @@ export const dataJson = [
     id: 35,
     title: 'Mushroom Burger',
     tool: [{
-      type: 'Grill',
-      name: 'Grill烤盤',
-      iconName: 'Grill'
+      type: 'Big Grill',
+      name: 'Big Grill大烤盤',
+      iconName: 'grill'
     }],
     condition: ['Veggie 蔬菜', 'Bread 麵包'],
-    ingredients: '',
+    ingredients: '麵粉+蘑菇+(香料、蒜頭)',
     stuffIcons: [{
-      constitute: ['flour', 'mushrooms', 'mushrooms', 'spotspice_ground']
+      constitute: ['flour', 'flour', 'spotspice_ground', 'mushrooms']
     }, {
-      constitute: ['flour', 'flour', 'mushrooms', 'spotspice_ground']
+        constitute: ['flour', 'flour', 'garlic', 'mushrooms']
+      }, {
+        constitute: ['flour', 'flour', 'mushrooms', 'mushrooms']
+      },{
+      constitute: ['flour', 'spotspice_ground', 'mushrooms', 'mushrooms']
     }, {
-      constitute: ['flour', 'flour', 'mushrooms', 'mushrooms']
-    }, {
-      constitute: ['flour', 'flour', 'garlic', 'mushrooms']
-    }, {
-      constitute: ['flour', 'mushrooms', 'mushrooms', 'mushrooms']
-    }],
+        constitute: ['flour', 'mushrooms', 'mushrooms', 'mushrooms']
+      }],
     exchange: [6, 2, 0, 0],
     more_exchange: [5, 1, 1, 0]
   },
@@ -803,23 +803,23 @@ export const dataJson = [
     id: 36,
     title: 'Fish Steak',
     tool: [{
-      type: 'Grill',
-      name: 'Grill烤盤',
-      iconName: 'Grill'
+      type: 'Big Grill',
+      name: 'Big Grill大烤盤',
+      iconName: 'grill'
     }],
     condition: ['Fish 魚肉'],
     ingredients: '魚+蕨類+香料+菜',
     stuffIcons: [{
-      constitute: ['carrot', 'foliage', 'salmon', 'spotspice_ground']
+      constitute: ['foliage' ,'salmon', 'spotspice_ground','carrot']
     }, {
-      constitute: ['foliage', 'salmon', 'spotspice_ground', 'tomato']
+        constitute: ['foliage', 'salmon', 'spotspice_ground', 'potato']
     }, {
-      constitute: ['foliage', 'potato', 'salmon', 'spotspice_ground']
-    }, {
-      constitute: ['foliage', 'onion', 'salmon', 'spotspice_ground']
+        constitute: ['foliage', 'salmon', 'spotspice_ground', 'onion']
     }, {
       constitute: ['foliage', 'salmon', 'spotspice_ground', 'turnip']
-    }],
+      }, {
+        constitute: ['foliage', 'salmon', 'spotspice_ground', 'tomato']
+      }],
     exchange: [8, 2, 0, 0],
     more_exchange: [7, 1, 1, 0]
   },
@@ -827,23 +827,23 @@ export const dataJson = [
     id: 37,
     title: 'Curry',
     tool: [{
-      type: 'Cookpot',
-      name: 'Cookpot吊鍋',
+      type: 'Big Cookpot',
+      name: 'Big Cookpot大吊鍋',
       iconName: 'pot'
     }],
-    condition: ['Soup 湯', 'Meat 肉類'],
+    condition: ['Soup 湯', 'Meat 肉'],
     ingredients: '香料x2+肉+菜',
     stuffIcons: [{
-      constitute: ['smallmeat', 'garlic', 'spotspice_ground', 'spotspice_ground']
+      constitute: ['smallmeat', 'spotspice_ground', 'spotspice_ground', 'potato']
     }, {
-      constitute: ['smallmeat', 'spotspice_ground', 'spotspice_ground', 'tomato']
-    }, {
-      constitute: ['smallmeat', 'potato', 'spotspice_ground', 'spotspice_ground']
-    }, {
-      constitute: ['smallmeat', 'onion', 'spotspice_ground', 'spotspice_ground']
+      constitute: ['smallmeat', 'spotspice_ground', 'spotspice_ground', 'onion']
     }, {
       constitute: ['smallmeat', 'spotspice_ground', 'spotspice_ground', 'turnip']
-    }],
+      },{
+        constitute: ['smallmeat', 'spotspice_ground', 'spotspice_ground', 'garlic']
+      }, {
+        constitute: ['smallmeat', 'spotspice_ground', 'spotspice_ground', 'tomato']
+      }],
     exchange: [2, 2, 0, 0],
     more_exchange: [7, 1, 1, 0]
   },
@@ -851,20 +851,20 @@ export const dataJson = [
     id: 38,
     title: 'Spaghetti And Meatballs',
     tool: [{
-      type: 'Cookpot',
-      name: 'Cookpot吊鍋',
+      type: 'Big Cookpot',
+      name: 'Big Cookpot大吊鍋',
       iconName: 'pot'
     }],
-    condition: ['Meat 肉類', 'Pasta 義大利麵'],
+    condition: ['Meat 肉', 'Pasta 義大利麵'],
     ingredients: '麵粉+番茄+肉+菜',
     stuffIcons: [{
-      constitute: ['smallmeat', 'flour', 'mushrooms', 'tomato']
+      constitute: ['smallmeat', 'flour', 'tomato', 'onion']
+    },{
+      constitute: ['smallmeat', 'flour', 'tomato', 'mushrooms']
     }, {
-      constitute: ['smallmeat', 'flour', 'garlic', 'tomato']
+      constitute: ['smallmeat', 'flour', 'tomato', 'garlic']
     }, {
-      constitute: ['smallmeat', 'flour', 'onion', 'tomato']
-    }, {
-      constitute: ['smallmeat', 'flour', 'spotspice_ground', 'tomato']
+      constitute: ['smallmeat', 'flour', 'tomato', 'spotspice_ground']
     }],
     exchange: [8, 2, 0, 0],
     more_exchange: [7, 1, 1, 0]
@@ -873,46 +873,44 @@ export const dataJson = [
     id: 39,
     title: 'Lasagna',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
-    condition: ['Pasta 義大利麵', 'Meat 肉類'],
+    condition: ['Pasta 義大利麵', 'Meat 肉'],
     ingredients: '麵粉+番茄+肉+菜',
     stuffIcons: [{
-      constitute: ['smallmeat', 'flour', 'mushrooms', 'tomato']
+      constitute: ['smallmeat', 'flour', 'tomato', 'onion']
     }, {
-      constitute: ['smallmeat', 'flour', 'garlic', 'tomato']
-    }, {
-      constitute: ['smallmeat', 'flour', 'onion', 'tomato']
-    }, {
-      constitute: ['smallmeat', 'flour', 'spotspice_ground', 'tomato']
+        constitute: ['smallmeat', 'flour', 'tomato', 'mushrooms']
+      },{
+      constitute: ['smallmeat', 'flour', 'tomato', 'garlic']
+    },  {
+      constitute: ['smallmeat', 'flour', 'tomato', 'spotspice_ground']
     }],
     exchange: [8, 2, 0, 0],
     more_exchange: [7, 1, 1, 0]
-  },
-
-          {
+  }, {
     id: 40,
     title: 'Poached Fish',
     tool: [{
-      type: 'Cookpot',
-      name: 'Cookpot吊鍋',
+      type: 'Big Cookpot',
+      name: 'Big Cookpot大吊鍋',
       iconName: 'pot'
     }],
-    condition: ['Fish 魚類'],
+    condition: ['Fish 魚'],
     ingredients: '魚+蕨類+香料+菜',
     stuffIcons: [{
       constitute: ['salmon', 'foliage', 'spotspice_ground', 'carrot']
     }, {
-      constitute: ['salmon', 'foliage', 'spotspice_ground', 'tomato']
-    }, {
       constitute: ['salmon', 'foliage', 'spotspice_ground', 'potato']
-    }, {
+      }, {
+        constitute: ['salmon', 'foliage', 'spotspice_ground', 'turnip']
+      },{
       constitute: ['salmon', 'foliage', 'spotspice_ground', 'mushrooms']
-    }, {
-      constitute: ['salmon', 'foliage', 'spotspice_ground', 'turnip']
-    }],
+    },  {
+        constitute: ['salmon', 'foliage', 'spotspice_ground', 'tomato']
+      }],
     exchange: [8, 2, 0, 0],
     more_exchange: [7, 1, 1, 0]
   },
@@ -920,20 +918,20 @@ export const dataJson = [
     id: 41,
     title: 'Shepherds Pie',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
-    condition: ['Meat 肉類'],
-    ingredients: '肉+馬鈴薯+香料+蘿蔔',
+    condition: ['Meat 肉'],
+    ingredients: '肉+馬鈴薯+(香料、蒜頭、蔬菜)',
     stuffIcons: [{
       constitute: ['smallmeat', 'potato', 'spotspice_ground', 'carrot']
     }, {
       constitute: ['smallmeat', 'potato', 'spotspice_ground', 'turnip']
-    }, {
+      }, {
+        constitute: ['smallmeat', 'potato', 'spotspice_ground', 'onion']
+      }, {
       constitute: ['smallmeat', 'potato', 'garlic', 'onion']
-    }, {
-      constitute: ['smallmeat', 'potato', 'spotspice_ground', 'onion']
     }, {
       constitute: ['smallmeat', 'potato', 'garlic', 'turnip']
     }],
@@ -967,18 +965,18 @@ export const dataJson = [
       iconName: 'casseroledish_small'
     }],
     condition: ['Dessert 甜點'],
-    ingredients: '麵粉x2+楓糖',
+    ingredients: '麵粉x2+楓糖+(果實、香料)',
     stuffIcons: [{
       constitute: ['flour', 'flour', 'syrup']
     }, {
       constitute: ['flour', 'flour', 'syrup', 'berries']
-    }, {
+      }, {
+        constitute: ['flour', 'flour', 'syrup', 'spotspice_ground']
+      },{
       constitute: ['flour', 'flour', 'flour', 'syrup']
-    }, {
-      constitute: ['flour', 'flour', 'syrup', 'syrup']
-    }, {
-      constitute: ['flour', 'flour', 'syrup', 'spotspice_ground']
-    }],
+    },  {
+        constitute: ['flour', 'flour', 'syrup', 'syrup']
+      }],
     exchange: [4, 0, 1, 0],
     more_exchange: [2, 1, 1, 0]
   },
@@ -1013,11 +1011,11 @@ export const dataJson = [
     condition: ['Dessert 甜點'],
     ingredients: '漿果+麵粉+楓糖',
     stuffIcons: [{
-      constitute: ['berries', 'flour', 'syrup']
+      constitute: ['flour', 'syrup', 'berries']
     }, {
-      constitute: ['berries', 'berries', 'flour', 'syrup']
+        constitute: ['flour', 'syrup', 'berries', 'berries']
     }, {
-      constitute: ['berries', 'flour', 'syrup', 'syrup']
+        constitute: ['flour', 'syrup', 'syrup', 'berries']
     }],
     exchange: [6, 0, 1, 0],
     more_exchange: [5, 1, 1, 0]
@@ -1031,7 +1029,7 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Cheese 起司', 'Pasta 義大利麵'],
-    ingredients: '麵粉x2+羊奶',
+    ingredients: '麵粉+羊奶',
     stuffIcons: [{
       constitute: ['flour', 'goatmilk', 'goatmilk']
     }, {
@@ -1046,12 +1044,12 @@ export const dataJson = [
     id: 47,
     title: "Bagel'Nfish",
     tool: [{
-      type: 'Grill',
-      name: 'Grill烤盤',
+      type: 'Big Grill',
+      name: 'Big Grill大烤盤',
       iconName: 'grill'
     }],
-    condition: ['Snack 小吃', 'Fish 魚類', 'Bread 麵包'],
-    ingredients: '魚+麵粉+羊奶+香料',
+    condition: ['Snack 小吃', 'Fish 魚', 'Bread 麵包'],
+    ingredients: '魚+麵粉+羊奶+(香料、洋蔥)',
     stuffIcons: [{
       constitute: ['salmon', 'flour', 'goatmilk', 'spotspice_ground']
     }, {
@@ -1069,7 +1067,7 @@ export const dataJson = [
       iconName: 'grill_small'
     }],
     condition: ['Snack 小吃', 'Cheese 起司', 'Bread 麵包'],
-    ingredients: '麵粉x2+羊奶',
+    ingredients: '麵粉+羊奶',
     stuffIcons: [{
       constitute: ['flour', 'flour', 'goatmilk']
     }, {
@@ -1089,7 +1087,7 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Cheese 起司', 'Veggie 蔬菜', 'Snack 小吃', 'Soup 湯'],
-    ingredients: '蘑菇x2+牛奶',
+    ingredients: '蘑菇+牛奶',
     stuffIcons: [{
       constitute: ['mushrooms', 'mushrooms', 'goatmilk']
     }, {
@@ -1109,17 +1107,17 @@ export const dataJson = [
       iconName: 'pot_small'
     }],
     condition: ['Cheese 起司', 'Veggie 蔬菜'],
-    ingredients: '麵粉+羊奶+馬鈴薯',
+    ingredients: '麵粉+羊奶+馬鈴薯+(肉、香料)',
     stuffIcons: [{
       constitute: ['flour', 'goatmilk', 'potato']
     }, {
-      constitute: ['smallmeat', 'flour', 'goatmilk', 'potato']
+        constitute: ['flour','goatmilk', 'potato','smallmeat']
     }, {
-      constitute: ['flour', 'flour', 'goatmilk', 'potato']
-    }, {
-      constitute: ['flour', 'goatmilk', 'potato', 'potato']
-    }, {
-      constitute: ['flour', 'goatmilk', 'potato', 'spotspice_ground']
+        constitute: ['flour', 'goatmilk', 'potato', 'potato']
+      }, {
+        constitute: ['flour', 'goatmilk', 'potato', 'spotspice_ground']
+      }, {
+        constitute: ['flour', 'goatmilk', 'goatmilk', 'potato']
     }],
     exchange: [4, 1, 1, 0],
     more_exchange: [4, 1, 0, 1]
@@ -1128,20 +1126,20 @@ export const dataJson = [
     id: 51,
     title: 'Manicotti',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
     condition: ['Cheese 起司', 'Pasta 義大利麵'],
-    ingredients: '羊奶+麵粉+番茄+蕨類',
+    ingredients: '羊奶+麵粉+番茄+(蕨類、香料、蒜頭)',
     stuffIcons: [{
-      constitute: ['flour', 'garlic', 'goatmilk', 'tomato']
-    }, {
-      constitute: ['flour', 'foliage', 'goatmilk', 'tomato']
-    }, {
-      constitute: ['flour', 'goatmilk', 'goatmilk', 'tomato']
-    }, {
-      constitute: ['flour', 'goatmilk', 'spotspice_ground', 'tomato']
+      constitute: ['flour', 'tomato', 'goatmilk', 'foliage']
+    },{
+      constitute: ['flour', 'tomato', 'goatmilk', 'garlic']
+    },  {
+        constitute: ['flour', 'tomato', 'goatmilk', 'spotspice_ground']
+      }, {
+      constitute: ['flour', 'tomato', 'goatmilk', 'goatmilk']
     }],
     exchange: [6, 1, 1, 0],
     more_exchange: [6, 1, 0, 1]
@@ -1150,22 +1148,22 @@ export const dataJson = [
     id: 52,
     title: 'Cheeseburger',
     tool: [{
-      type: 'Grill',
-      name: 'Grill烤盤',
+      type: 'Big Grill',
+      name: 'Big Grill大烤盤',
       iconName: 'grill'
     }],
-    condition: ['Meat 肉類', 'Cheese 起司', 'Bread 麵包'],
-    ingredients: '肉+麵粉+羊奶+蕨類',
+    condition: ['Meat 肉', 'Cheese 起司', 'Bread 麵包'],
+    ingredients: '肉+麵粉+羊奶+(蕨類、香料、蔬菜)',
     stuffIcons: [{
-      constitute: ['smallmeat', 'flour', 'foliage', 'goatmilk']
+      constitute: [ 'flour','goatmilk', 'smallmeat','foliage']
     }, {
-      constitute: ['smallmeat', 'flour', 'goatmilk', 'tomato']
+        constitute: ['flour', 'goatmilk', 'smallmeat', 'onion']
+      }, {
+      constitute: [ 'flour','goatmilk', 'smallmeat', 'tomato']
     }, {
-      constitute: ['smallmeat', 'flour', 'goatmilk', 'spotspice_ground']
+      constitute: [ 'flour','goatmilk', 'smallmeat', 'spotspice_ground']
     }, {
-      constitute: ['smallmeat', 'flour', 'goatmilk', 'onion']
-    }, {
-      constitute: ['smallmeat', 'smallmeat', 'flour', 'goatmilk']
+      constitute: [ 'flour','goatmilk', 'smallmeat', 'smallmeat']
     }],
     exchange: [6, 1, 1, 0],
     more_exchange: [6, 1, 0, 1]
@@ -1174,8 +1172,8 @@ export const dataJson = [
     id: 53,
     title: 'Fettuccine',
     tool: [{
-      type: 'Cookpot',
-      name: 'Cookpot吊鍋',
+      type: 'Big Cookpot',
+      name: 'Big Cookpot大吊鍋',
       iconName: 'pot'
     }],
     condition: ['Pasta 義大利麵'],
@@ -1190,8 +1188,8 @@ export const dataJson = [
     id: 54,
     title: 'Onion Soup',
     tool: [{
-      type: 'Cookpot',
-      name: 'Cookpot吊鍋',
+      type: 'Big Cookpot',
+      name: 'Big Cookpot大吊鍋',
       iconName: 'pot'
     }],
     condition: ['Soup 湯', 'Veggie 蔬菜', 'Snack 小吃'],
@@ -1206,11 +1204,11 @@ export const dataJson = [
     id: 55,
     title: 'Breaded Cutlet',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
-    condition: ['Meat 肉類'],
+    condition: ['Meat 肉'],
     ingredients: '牛肉+麵粉x2+香料',
     stuffIcons: [{
       constitute: ['meat', 'flour', 'flour', 'spotspice_ground']
@@ -1224,19 +1222,19 @@ export const dataJson = [
     id: 56,
     title: 'Creamy Fish',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
-    condition: ['Fish 魚類'],
-    ingredients: '魚+香料+羊奶+蒜頭',
+    condition: ['Fish 魚'],
+    ingredients: '魚+香料+羊奶+(羊奶、蒜頭、洋蔥)',
     stuffIcons: [{
       constitute: ['salmon', 'spotspice_ground', 'goatmilk', 'garlic']
     }, {
-      constitute: ['salmon', 'spotspice_ground', 'goatmilk', 'goatmilk']
-    }, {
       constitute: ['salmon', 'spotspice_ground', 'goatmilk', 'onion']
-    }],
+      }, {
+        constitute: ['salmon', 'spotspice_ground', 'goatmilk', 'goatmilk']
+      }],
     exchange: [8, 1, 1, 0],
     more_exchange: [3, 0, 1, 1]
   },
@@ -1244,11 +1242,11 @@ export const dataJson = [
     id: 57,
     title: 'Pizza',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
-    condition: ['Cheese 起司', 'Meat 肉類'],
+    condition: ['Cheese 起司', 'Meat 肉'],
     ingredients: '麵粉+牛奶+小肉+番茄',
     stuffIcons: [{
       constitute: ['smallmeat', 'flour', 'goatmilk', 'tomato']
@@ -1260,20 +1258,20 @@ export const dataJson = [
     id: 58,
     title: 'Pot Roast',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
-    condition: ['Meat 肉類'],
-    ingredients: '牛肉+蘑菇+香料+番茄',
+    condition: ['Meat 肉'],
+    ingredients: '牛肉+蔬菜+(蘑菇、香料)',
     stuffIcons: [{
-      constitute: ['meat', 'spotspice_ground', 'tomato', 'mushrooms']
+      constitute: ['meat', 'tomato', 'mushrooms', 'spotspice_ground']
     }, {
+        constitute: ['meat', 'carrot', 'turnip', 'spotspice_ground']
+      }, {
       constitute: ['meat', 'meat', 'carrot', 'spotspice_ground']
     }, {
       constitute: ['meat', 'meat', 'tomato', 'spotspice_ground']
-    }, {
-      constitute: ['meat', 'carrot', 'spotspice_ground', 'turnip']
     }, {
       constitute: ['meat', 'meat', 'garlic', 'tomato']
     }],
@@ -1284,22 +1282,22 @@ export const dataJson = [
     id: 59,
     title: 'Crab Cake',
     tool: [{
-      type: 'Oven',
-      name: 'Oven窯烤',
+      type: 'Big Oven',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
     condition: ['Snack 小吃'],
-    ingredients: '蟹肉+麵粉+馬鈴薯+香料',
+    ingredients: '蟹肉+麵粉+(馬鈴薯、香料)',
     stuffIcons: [{
-      constitute: ['crabmeat', 'flour', 'onion', 'spotspice_ground']
+      constitute: ['flour','crabmeat',  'onion', 'spotspice_ground']
     }, {
-      constitute: ['crabmeat', 'crabmeat', 'flour', 'potato']
+      constitute: ['flour','crabmeat',  'garlic', 'spotspice_ground']
     }, {
-      constitute: ['crabmeat', 'flour', 'garlic', 'spotspice_ground']
-    }, {
-      constitute: ['crabmeat', 'flour', 'potato', 'spotspice_ground']
-    }, {
-      constitute: ['crabmeat', 'crabmeat', 'flour', 'spotspice_ground']
+      constitute: ['flour','crabmeat',  'potato', 'spotspice_ground']
+      }, {
+        constitute: ['flour', 'crabmeat', 'crabmeat', 'potato']
+      }, {
+      constitute: ['flour','crabmeat', 'crabmeat',  'spotspice_ground']
     }],
     exchange: [4, 0, 2, 0],
     more_exchange: [5, 0, 1, 1]
@@ -1309,11 +1307,11 @@ export const dataJson = [
     title: 'Steak Frites',
     tool: [{
       type: 'Big Grill',
-      name: 'Big Grill 大烤盤',
+      name: 'Big Grill大烤盤',
       iconName: 'grill'
     }],
-    condition: ['Meat 肉類'],
-    ingredients: '牛肉+馬鈴薯、牛肉、馬鈴薯、香料',
+    condition: ['Meat 肉'],
+    ingredients: '牛肉+馬鈴薯+(香料)',
     stuffIcons: [{
       constitute: ['meat', 'potato', 'potato', 'spotspice_ground']
     },{
@@ -1329,11 +1327,11 @@ export const dataJson = [
     title: 'Shooter Sandwich',
     tool: [{
       type: 'Big Grill',
-      name: 'Big Grill 大烤盤',
+      name: 'Big Grill大烤盤',
       iconName: 'grill'
     }],
-    condition: ['Meat 肉類', 'Bread 麵包'],
-    ingredients: '牛肉+麵粉、香料、蘑菇、蒜頭',
+    condition: ['Meat 肉', 'Bread 麵包'],
+    ingredients: '牛肉+麵粉+(香料、蘑菇、蒜頭)',
     stuffIcons: [{
       constitute: ['meat', 'mushrooms', 'spotspice_ground', 'flour']
     }, {
@@ -1353,11 +1351,11 @@ export const dataJson = [
     title: 'Offering',
     tool: [{
       type: 'Big Oven',
-      name: 'Big Oven 大窯烤',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
-    condition: ['Meat 肉類'],
-    ingredients: '牛肉x2、肉x2',
+    condition: ['Meat 肉'],
+    ingredients: '牛肉+肉+(香料)',
     stuffIcons: [{
       constitute: ['meat', 'smallmeat', 'smallmeat', 'spotspice_ground']
     }, {
@@ -1373,13 +1371,13 @@ export const dataJson = [
     title: 'Crab Roll',
     tool: [{
       type: 'Big Grill',
-      name: 'Big Grill 大烤盤',
+      name: 'Big Grill大烤盤',
       iconName: 'grill'
     }],
     condition: ['Bread 麵包'],
     ingredients: '蟹肉+麵粉+(蕨類、蔬菜)',
     stuffIcons: [{
-      constitute: ['crabmeat', 'foliage', 'ingredient_slot', 'flour']
+      constitute: ['crabmeat', 'foliage', 'onion', 'flour']
     },{
       constitute: ['crabmeat', 'foliage', 'tomato', 'flour']
     },{
@@ -1397,10 +1395,10 @@ export const dataJson = [
     title: 'Meat Wellington',
     tool: [{
       type: 'Big Oven',
-      name: 'Big Oven 大窯烤',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
-    condition: ['Meat 肉類'],
+    condition: ['Meat 肉'],
     ingredients: '牛肉+麵粉+(香料、蘑菇、蒜頭)',
     stuffIcons: [{
       constitute: ['meat', 'flour', 'mushrooms', 'spotspice_ground']
@@ -1421,13 +1419,13 @@ export const dataJson = [
     title: 'Crab Ravioli',
     tool: [{
       type: 'Big Cookpot',
-      name: 'Big Cookpot 大吊鍋',
+      name: 'Big Cookpot大吊鍋',
       iconName: 'pot'
     }],
     condition: ['Cheese 起司', 'Pasta 義大利麵'],
     ingredients: '蟹肉+麵粉+牛奶+(蟹肉、洋蔥、香料)',
     stuffIcons: [{
-      constitute: ['crabmeat', 'ingredient_slot', 'goatmilk', 'flour']
+      constitute: ['crabmeat', 'onion', 'goatmilk', 'flour']
     }, {
         constitute: ['crabmeat', 'mushrooms', 'goatmilk', 'flour']
     }, {
@@ -1445,11 +1443,11 @@ export const dataJson = [
     title: 'Caramel Cube',
     tool: [{
       type: 'Big Cookpot',
-      name: 'Big Cookpot 大吊鍋',
+      name: 'Big Cookpot大吊鍋',
       iconName: 'pot'
     }],
     condition: ['Dessert 甜點'],
-    ingredients: '羊奶+蜜糖+(牛奶、蜜糖)',
+    ingredients: '羊奶+楓糖+(牛奶、楓糖)',
     stuffIcons: [{
       constitute: ['goatmilk', 'goatmilk', 'syrup']
     }, {
@@ -1465,7 +1463,7 @@ export const dataJson = [
     title: 'Scone',
     tool: [{
       type: 'Big Grill',
-      name: 'Big Grill 大烤盤',
+      name: 'Big Grill大烤盤',
       iconName: 'grill'
     }],
     condition: ['Dessert 甜點', 'Bread 麵包'],
@@ -1481,7 +1479,7 @@ export const dataJson = [
     title: 'Trifle',
     tool: [{
       type: 'Big Oven',
-      name: 'Big Oven 大窯烤',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
     condition: ['Dessert 甜點'],
@@ -1497,7 +1495,7 @@ export const dataJson = [
     title: 'Cheesecake',
     tool: [{
       type: 'Big Oven',
-      name: 'Big Oven 大窯烤',
+      name: 'Big Oven大窯烤',
       iconName: 'casseroledish'
     }],
     condition: ['Cheese 起司', 'Dessert 甜點'],

@@ -16,10 +16,10 @@
           <label for="checkDessert">Dessert 甜點<i class="fas fa-check"></i></label>
           <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Bread 麵包" id="checkBread" name="checkFilter">
           <label for="checkBread">Bread 麵包<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Meat 肉類" id="checkMeat" name="checkFilter">
-          <label for="checkMeat">Meat 肉類<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Fish 魚類" id="checkFish" name="checkFilter">
-          <label for="checkFish">Fish 魚類<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Meat 肉" id="checkMeat" name="checkFilter">
+          <label for="checkMeat">Meat 肉<i class="fas fa-check"></i></label>
+          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Fish 魚" id="checkFish" name="checkFilter">
+          <label for="checkFish">Fish 魚<i class="fas fa-check"></i></label>
           <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Soup 湯" id="checkSoup" name="checkFilter">
           <label for="checkSoup">Soup 湯<i class="fas fa-check"></i></label>
           <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Pasta 義大利麵" id="checkPasta" name="checkFilter">

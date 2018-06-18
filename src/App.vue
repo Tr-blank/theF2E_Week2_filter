@@ -1,8 +1,9 @@
 <template>
   <body id="app">
-    <div class="header-top">6/14~7/9 新遊戲活動「The Gorge」</div>
+    <nav class="header-top"><router-link to="/about">Don't Starve Together 新活動「The Gorge」6/14~7/9 </router-link></nav>
     <header>
-      <img class="logoImg" src="img/logo.png" alt="">
+      <h1 class="hide">Don't Starve Together「The Gorge」活動食譜篩選 - 前端修練時光屋第二周 篩選器｜提亞</h1> 
+      <router-link to="/"><img class="logoImg" src="img/logo.png" alt=""></router-link>
     </header>
     <router-view/>
   </body>
@@ -20,7 +21,8 @@
     background-color #161421
     text-align  center
     line-height 40px
-    color #fff
+    a
+      color #fff
   header
     text-align  center
     background-color: rgba(0,0,0,.6);
