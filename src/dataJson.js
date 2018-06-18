@@ -605,7 +605,7 @@ export const dataJson = [
     condition: ['Snack 小吃', 'Meat 肉'],
     ingredients: '肉+香料+(蔬菜)',
     stuffIcons: [{
-      constitute: ['smallmeat', 'foliage', 'smallmeat']
+      constitute: ['smallmeat', 'foliage', 'spotspice_ground']
     }, {
         constitute: ['smallmeat', 'potato', 'spotspice_ground']
     }, {
