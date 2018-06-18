@@ -313,11 +313,11 @@ export const dataJson = [
     stuffIcons: [{
       constitute: ['potato', 'potato', 'carrot']
     }, {
-        constitute: ['potato', 'potato', 'turnip']
+        constitute: ['potato', 'potato', 'mushrooms']
     }, {
-        constitute: ['potato', 'turnip', 'turnip']
+        constitute: ['potato', 'mushrooms', 'mushrooms']
     }, {
-        constitute: ['potato', 'carrot', 'carrot']
+        constitute: ['potato', 'onion', 'turnip']
     }, {
         constitute: ['potato', 'carrot', 'turnip']
     }],
@@ -487,7 +487,7 @@ export const dataJson = [
     }, {
         constitute: ['berries', 'berries', 'syrup','syrup']
     }],
-    exchange: [1, 0, 0, 0],
+    exchange: [0,1 , 0, 0],
     more_exchange: [1, 2, 0, 0]
   },
   {
@@ -529,8 +529,8 @@ export const dataJson = [
       }, {
         constitute: ['flour', 'flour', 'carrot', 'goatmilk']
       }],
-    exchange: [2, 1, 0, 0],
-    more_exchange: [4, 1, 0, 0]
+    exchange: [6, 1, 0, 0],
+    more_exchange: [3,2, 0, 0]
   },
   {
     id: 24,
