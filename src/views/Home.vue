@@ -6,7 +6,7 @@
       <div class="filter">
         <div class="total">你搜尋了<span class="totalNumber">{{dataFilted.length}}</span>篇食譜</div>
         <div class="textFilter"><input type="text" @change="filterFunction" v-model="textString" placeholder="輸入編號，例如45 61 16"><i class="fas fa-search"></i></div>
-        <p>料理類型</p>
+        <p class="filterTitle">料理類型</p>
         <div class="typelist">
           <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Snack 小吃" id="checkSnack" name="checkFilter">
           <label for="checkSnack">Snack 小吃<i class="fas fa-check"></i></label>
@@ -27,7 +27,7 @@
           <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Cheese 起司" id="checkCheese" name="checkFilter">
           <label for="checkCheese">Cheese 起司<i class="fas fa-check"></i></label>
         </div>
-        <p>烹飪工具</p>
+        <p class="filterTitle">烹飪工具</p>
         <div class="toolList">
           <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Cookpot" id="checkCookpot" name="toolFilter">
           <label for="checkCookpot">Cookpot 吊鍋<i class="fas fa-check"></i></label>
@@ -42,7 +42,7 @@
           <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Big Grill" id="checkGrill_big" name="toolFilter">
           <label for="checkGrill_big">Big Grill 大烤盤<i class="fas fa-check"></i></label>
         </div>
-        <p>金幣數量排序</p>
+        <p class="filterTitle">金幣數量排序</p>
         <div class="coinlist">
           <input type="radio" class="hide filterInput" v-model="coinString" @click="radioToggle" @change="filterFunction" value="4" id="radio4" name="coinSort">
           <label for="radio4">彩虹幣<i class="fas fa-long-arrow-alt-down"></i></label>
@@ -52,6 +52,12 @@
           <label for="radio2">銀幣<i class="fas fa-long-arrow-alt-down"></i></label>
           <input type="radio" class="hide filterInput" v-model="coinString" @click="radioToggle" @change="filterFunction" value="1" id="radio1" name="coinSort">
           <label for="radio1">銅幣<i class="fas fa-long-arrow-alt-down"></i></label>
+        </div>
+        <div class="footer">
+        <div class="partner">特此感謝<span class="strong">笨蛋孟</span>及<span class="strong">魚肉</span>協助彙整遊戲資料</div>
+      <div>圖片資料皆取自<a class="footerLink" target="_blank" href="https://forums.kleientertainment.com/gorge-recipe-book/">遊戲官方食譜</a>及<a class="footerLink" target="_blank" href="https://docs.google.com/document/d/11w3icU7syMySWet8xG74Cellsl0JdOB-mq129tPDte8/edit">巴哈姆特食譜清單</a></div>
+      <div>此網站為<a class="footerLink" target="_blank" href="http://www.hexschool.com/2018/05/09/2018-05-09-the_f2e/">前端修練活動</a>作品</div>
+      <div>網站內容僅供資料篩選及分享用途</div>
         </div>
       </div>
     </aside> 
