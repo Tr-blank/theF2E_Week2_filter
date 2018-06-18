@@ -35,11 +35,11 @@
           <label for="checkOven">Oven 窯烤<i class="fas fa-check"></i></label>
           <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Grill" id="checkGrill" name="toolFilter">
           <label for="checkGrill">Grill 烤盤<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Cookpot_big" id="checkCookpot_big" name="toolFilter">
+          <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Big Cookpot" id="checkCookpot_big" name="toolFilter">
           <label for="checkCookpot_big">Big Cookpot 大吊鍋<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Oven_big" id="checkOven_big" name="toolFilter">
+          <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Big Oven" id="checkOven_big" name="toolFilter">
           <label for="checkOven_big">Big Oven 大窯烤<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Grill_big" id="checkGrill_big" name="toolFilter">
+          <input type="checkbox" class="hide filterInput" v-model="toolArray" @change="filterFunction" value="Big Grill" id="checkGrill_big" name="toolFilter">
           <label for="checkGrill_big">Big Grill 大烤盤<i class="fas fa-check"></i></label>
         </div>
         <p>金幣數量排序</p>
