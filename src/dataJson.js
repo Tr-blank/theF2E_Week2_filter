@@ -693,11 +693,11 @@ export const dataJson = [
     stuffIcons: [{
       constitute: ['flour', 'tomato', 'tomato', 'garlic']
     }, {
-        constitute: ['flour', 'tomato', 'tomato', 'carrot']
+        constitute: ['flour', 'tomato', 'tomato', 'foliage']
     }, {
         constitute: ['flour', 'tomato', 'tomato', 'spotspice_ground']
     }, {
-        constitute: ['flour', 'tomato', 'goatmilk', 'mushrooms']
+        constitute: ['flour', 'tomato', 'goatmilk', 'foliage']
     }, {
         constitute: ['flour', 'tomato', 'goatmilk', 'garlic']
     }],
@@ -844,7 +844,7 @@ export const dataJson = [
       }, {
         constitute: ['smallmeat', 'spotspice_ground', 'spotspice_ground', 'tomato']
       }],
-    exchange: [2, 2, 0, 0],
+    exchange: [8, 2, 0, 0],
     more_exchange: [7, 1, 1, 0]
   },
   {
