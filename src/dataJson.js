@@ -59,7 +59,7 @@ export const dataJson = [
     }, {
         constitute: ['potato', 'potato', 'turnip']
     }],
-    exchange: [5, 0, 0, 0],
+    exchange: [8, 0, 0, 0],
     more_exchange: [4, 1, 0, 0]
   },
   {
