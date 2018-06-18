@@ -2,7 +2,7 @@
   <div class="aboutMain">
     <div class="about">
       <h2 class="aboutTitle">Don't Starve Together「The Gorge」</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/SfzvtHDsgTU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/SfzvtHDsgTU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
       <p>After barely escaping through the Molten Gateway, our survivors plummet headfirst into the ruins of a sickly city ruled by a ravenous beast. Work together to cook fine dishes and placate the Eternal Gnaw's hunger to avoid the curse of its terrible plague. Cook well enough, and you may even get to go home.
       </p>
 <p>The Gorge is a free limited time 3-player co-op challenge with tons of new skins, emotes, items and more. Your goal is to cook and offer food on the Altar of Gnaw, but you'll need all the cooks in the kitchen to keep it fed, so work together to survive!</p>
@@ -27,6 +27,16 @@
     font-weight: bold;
   .link
     font-size: 1.125rem;
+  .video
+    width 100%
+    padding 28%
+    position relative
+    iframe
+      position absolute
+      top 0
+      left 0
+      width 100%
+      height  100%
   .about
     width  100%
     text-align center

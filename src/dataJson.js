@@ -446,9 +446,9 @@ export const dataJson = [
     id: 20,
     title: 'Slider',
     tool: [{
-      type: 'Cookpot',
-      name: 'Cookpot吊鍋',
-      iconName: 'pot_small'
+      type: 'Grill',
+      name: 'Grill烤盤',
+      iconName: 'grill_small'
     }],
     condition: ['Bread 麵包','Snack 小吃','Meat 肉'],
     ingredients: '麵粉+肉+(任意)',
@@ -494,9 +494,9 @@ export const dataJson = [
     id: 22,
     title: 'Jelly Roll',
     tool: [{
-      type: 'Cookpot',
-      name: 'Cookpot吊鍋',
-      iconName: 'pot_small'
+      type: 'Oven',
+      name: 'Oven窯烤',
+      iconName: 'casseroledish_small'
     }],
     condition: ['Dessert 甜點'],
     ingredients: '漿果*2+麵粉',
