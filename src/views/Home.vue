@@ -5,27 +5,28 @@
     <aside :style="'height:'+asideHeight()+'px;margin-top:'+pc_asideTop+'px;'">
       <div class="filter">
         <div class="total">你搜尋了<span class="totalNumber">{{dataFilted.length}}</span>篇食譜</div>
-        <div class="textFilter"><input type="text" @change="filterFunction" v-model="textString" placeholder="輸入編號，例如45 61 16"><i class="fas fa-search"></i></div>
         <p class="filterTitle">料理類型</p>
         <div class="typelist">
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Snack 小吃" id="checkSnack" name="checkFilter">
-          <label for="checkSnack">Snack 小吃<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Veggie 蔬菜" id="checkVeggie" name="checkFilter">
-          <label for="checkVeggie">Veggie 蔬菜<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Dessert 甜點" id="checkDessert" name="checkFilter">
-          <label for="checkDessert">Dessert 甜點<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Bread 麵包" id="checkBread" name="checkFilter">
-          <label for="checkBread">Bread 麵包<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Meat 肉" id="checkMeat" name="checkFilter">
-          <label for="checkMeat">Meat 肉<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Fish 魚" id="checkFish" name="checkFilter">
-          <label for="checkFish">Fish 魚<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Soup 湯" id="checkSoup" name="checkFilter">
-          <label for="checkSoup">Soup 湯<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Pasta 義大利麵" id="checkPasta" name="checkFilter">
-          <label for="checkPasta">Pasta 義大利麵<i class="fas fa-check"></i></label>
-          <input type="checkbox" class="hide filterInput" v-model="typeArray" @change="filterFunction" value="Cheese 起司" id="checkCheese" name="checkFilter">
-          <label for="checkCheese">Cheese 起司<i class="fas fa-check"></i></label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray" value="All" id="checkAll" name="checkFilter">
+          <label for="checkAll"><i class="fas fa-dot-circle"></i>All 全部</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Snack 小吃" id="checkSnack" name="checkFilter">
+          <label for="checkSnack"><i class="fas fa-dot-circle"></i>Snack 小吃</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Veggie 蔬菜" id="checkVeggie" name="checkFilter">
+          <label for="checkVeggie"><i class="fas fa-dot-circle"></i>Veggie 蔬菜</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Dessert 甜點" id="checkDessert" name="checkFilter">
+          <label for="checkDessert"><i class="fas fa-dot-circle"></i>Dessert 甜點</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Bread 麵包" id="checkBread" name="checkFilter">
+          <label for="checkBread"><i class="fas fa-dot-circle"></i>Bread 麵包</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Meat 肉" id="checkMeat" name="checkFilter">
+          <label for="checkMeat"><i class="fas fa-dot-circle"></i>Meat 肉</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Fish 魚" id="checkFish" name="checkFilter">
+          <label for="checkFish"><i class="fas fa-dot-circle"></i>Fish 魚</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Soup 湯" id="checkSoup" name="checkFilter">
+          <label for="checkSoup"><i class="fas fa-dot-circle"></i>Soup 湯</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Pasta 義大利麵" id="checkPasta" name="checkFilter">
+          <label for="checkPasta"><i class="fas fa-dot-circle"></i>Pasta 義大利麵</label>
+          <input type="radio" class="hide filterInput" @change="filterFunction" v-model="typeArray"  value="Cheese 起司" id="checkCheese" name="checkFilter">
+          <label for="checkCheese"><i class="fas fa-dot-circle"></i>Cheese 起司</label>
         </div>
         <p class="filterTitle">烹飪工具</p>
         <div class="toolList">
@@ -53,6 +54,7 @@
           <input type="radio" class="hide filterInput" v-model="coinString" @click="radioToggle" @change="filterFunction" value="1" id="radio1" name="coinSort">
           <label for="radio1">銅幣<i class="fas fa-long-arrow-alt-down"></i></label>
         </div>
+         <div class="textFilter"><input type="text" @change="filterFunction" v-model="textString" placeholder="輸入編號，例如45 61 16"><i class="fas fa-search"></i></div>
         <div class="footer">
         <div class="partner">特此感謝<span class="strong">笨盪孟</span>及<span class="strong">魚肉</span>協助彙整遊戲資料</div>
       <div>圖片資料皆取自<a class="footerLink" target="_blank" href="https://forums.kleientertainment.com/gorge-recipe-book/">遊戲官方食譜</a>及<a class="footerLink" target="_blank" href="https://docs.google.com/document/d/11w3icU7syMySWet8xG74Cellsl0JdOB-mq129tPDte8/edit">巴哈姆特食譜清單</a></div>
@@ -113,7 +115,7 @@ export default class Home extends Vue {
       dataFilted:dataJson,
       textString:'',
       toolArray:[],
-      typeArray:[],
+      typeArray:'All',
       coinString:'',
       pc_asideTop:0,
     }
@@ -134,8 +136,12 @@ export default class Home extends Vue {
       // }
       this.dataFilted = this.data;
       this.pc_asideTop = 0;
+      window.scroll(0, 270);
       let toolFilterData =[];
       let typeFilterData =[];
+      let typeString = [];
+      typeString.push(this.typeArray);
+      // console.log(typeString);
       let toolFilter = this.toolArray;
       for( let i = 0 ;i < this.dataFilted.length ; i++){
         if(toolFilter.length != 0){
@@ -149,11 +155,14 @@ export default class Home extends Vue {
           });
           if(data.length !=0)toolFilterData.push(this.dataFilted[i].id);
         }
-
-        //將資料陣列與篩選類型陣列做比對，符合的項目塞入typeFilterData裡面
-        let intersection = this.dataFilted[i].condition.filter(v => this.typeArray.includes(v));
-        // console.log(intersection);
-        if(intersection.length == this.typeArray.length){
+        if(typeString[0] != "All"){
+          //將資料陣列與篩選類型陣列做比對，符合的項目塞入typeFilterData裡面
+          let intersection = this.dataFilted[i].condition.filter(function(item, index, array){return item == typeString;});
+          // // console.log(intersection);
+          if(intersection.length == 1){
+            typeFilterData.push(this.dataFilted[i].id);
+          }
+        }else{
           typeFilterData.push(this.dataFilted[i].id);
         }
       }
@@ -219,12 +228,12 @@ export default class Home extends Vue {
           h = w.innerWidth|| e.clientWidth|| g.clientWidth,
           y = w.innerHeight|| e.clientHeight|| g.clientHeight;
     if(h>960){      
-      if(window.scrollY + window.innerHeight > document.body.scrollHeight-20 && window.innerHeight + 530 < document.body.scrollHeight){
-        this.pc_asideTop = document.body.scrollHeight - window.innerHeight - 340;
-      }else if(window.scrollY<320){
+      if(window.scrollY + window.innerHeight > document.body.scrollHeight-20 && window.innerHeight + 500 < document.body.scrollHeight){
+        this.pc_asideTop = document.body.scrollHeight - window.innerHeight - 290;
+      }else if(window.scrollY<300){
         this.pc_asideTop = 0;
       }else{
-        this.pc_asideTop = window.scrollY - 325;
+        this.pc_asideTop = window.scrollY - 290;
       }
     }else{
       this.pc_asideTop = 0;

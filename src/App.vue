@@ -27,7 +27,7 @@
     text-align  center
     background-color: rgba(0,0,0,.6);
     box-shadow: 0 20px 30px 0px rgba(0,0,0,.6);
-    padding: 40px 0 0 0;
+    padding: 20px 0 0 0;
   .logoImg
-    width 260px
+    width 210px
 </style>
