@@ -529,7 +529,7 @@ export const dataJson = [
     }],
     exchange: [6,0 , 0, 0],
     more_exchange: [1, 2, 0, 0],
-    exchange_Note: '(一般供奉限定甜點1彩)',
+    exchange_Note: '(一般供奉限定甜點1藍)',
     more_exchange_Note:''
   },
   {
